@@ -3,5 +3,7 @@
   "outputDirectory": "public",
   "installCommand": "npm install",
   "framework": null,
-  "outputDirectoryLegacy": "public"
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" }
+  ]
 }

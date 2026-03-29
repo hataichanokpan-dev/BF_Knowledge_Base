@@ -81,6 +81,7 @@ const config: QuartzConfig = {
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
+        rssSlug: "rss", // Changed from default "index" to avoid conflict with index.html
       }),
       Plugin.Assets(),
       Plugin.Static(),
