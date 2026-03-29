@@ -2,11 +2,5 @@
   "buildCommand": "npx quartz build",
   "outputDirectory": "public",
   "framework": null,
-  "installCommand": "npm install",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/$1.html"
-    }
-  ]
+  "installCommand": "npm install"
 }
