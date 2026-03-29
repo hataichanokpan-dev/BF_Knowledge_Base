@@ -51,9 +51,9 @@ tags:
 
 ## ⚠️ Hold (MOS 10-19%)
 
-| Ticker | Sector | MOS | QSI | Action | Review |
-|--------|--------|-----|-----|--------|--------|
-| [[AEONTS]] | Financial | 0% | - | ⏳ รอ | - |
+| Ticker     | Sector    | MOS | QSI | Action | Review |
+| ---------- | --------- | --- | --- | ------ | ------ |
+| [[AEONTS]] | Financial | 18% | 54 | ⚠️ SPECULATIVE | [[AEONTS Deep Dive - 2026-03-29-thai]] ⚠️ NPL 5.9% |
 
 ---
 
@@ -62,7 +62,7 @@ tags:
 ### Financial Services (13)
 | Ticker | MOS | QSI | Status | Review |
 |--------|-----|-----|--------|--------|
-| [[AEONTS]] | 0% | 51 | ⚠️ WATCH | [[AEONTS Review - 2026-03-29-thai]] ⚠️ NPL rising |
+| [[AEONTS]] | 18% | **54** | ⚠️ SPECULATIVE | [[AEONTS Deep Dive - 2026-03-29-thai]] ⚠️ NPL 5.9%, Q3 ลด YoY |
 | [[BAM]] | ?% | 56 | ⚠️ WATCH | Financial Batch Review |
 | [[BAY]] | ?% | 63 | ⚠️ WATCH | Financial Batch Review |
 | [[KTC]] | ?% | **66** | ⚠️ WATCH | [[KTC Review - 2026-03-29-thai]] ⚠️ ESG uncertain, KTB 49% |
@@ -162,7 +162,7 @@ tags:
 
 | Status | Count | Stocks |
 |--------|-------|--------|
-| ✅ Reviewed | **25** | BTG, AURA, MEGA, OSP, ADVANC, SAWAD, JAK, ONEE, AIT, SIS, SISB, UVAN, GPI, CPT, DREIT, GREEN, PRIME, MCS, PLAT, **KTC**, **TCAP**, **TLI**, **THANI**, **SAK**, **DELTA** |
+| ✅ Reviewed | **26** | BTG, AURA, MEGA, OSP, ADVANC, SAWAD, JAK, ONEE, AIT, SIS, SISB, UVAN, GPI, CPT, DREIT, GREEN, PRIME, MCS, PLAT, **KTC**, **TCAP**, **TLI**, **THANI**, **SAK**, **DELTA**, **AEONTS** |
 | ✅ Earlier | 3 | SC (03/26), AP (03/27), LH (03/27) |
 | ⏳ Pending | 31 | - |
 
@@ -183,6 +183,7 @@ tags:
 | JAK | 2026-03-28 | Property | 88.1% | 56 | PASS |
 | UVAN | 2026-03-28 | Consumer/Agri | 28.2% | 68 | WATCH |
 | **PLAT** | **2026-03-29** | **Property** | **N/A** | **60** | **WATCH** ⚠️ Capex Risk |
+| **AEONTS** | **2026-03-29** | **Financial** | **18%** | **54** | **SPECULATIVE** ⚠️ NPL 5.9% |
 
 ---
 
@@ -201,7 +202,7 @@ tags:
 - [x] ดึง MOS data ทั้ง 56 ตัวจาก JSON
 - [x] ทำ Deep Dive BTG (3-Round AI Collaboration)
 - [x] ทำ Deep Dive 10 ตัวแรก
-- [ ] รัน Wave 3 Entry Strategy บน top 10 MOS
+- [x] รัน Wave 3 Entry Strategy บน top 10 MOS ✅ [[Wave 3 Entry Strategy - Top 10 MOS - 2026-03-29]]
 - [ ] ทำ Deep Dive ครบ 56 ตัว
 - [x] อัปเดต [[Stock Reviews MOC]]
 
@@ -216,4 +217,4 @@ tags:
 
 ---
 
-*สร้างโดย Synapse-O • อัปเดต 2026-03-28 18:20*
+*สร้างโดย Synapse-O • อัปเดต 2026-03-29 21:15*
