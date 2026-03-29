@@ -17,7 +17,7 @@ tags:
 
 # ATS Wave 2.5 Final Summary - QSI Screening
 
-> วันที่: 2026-03-29 (Updated: 19:45)
+> วันที่: 2026-03-29 (Updated: 22:00)
 > รูปแบบ: Dual AI Quick Screening + Deep Dive (3-Round AI Collaboration)
 > Framework: QSI v2.0
 
@@ -29,7 +29,7 @@ tags:
 |--------|-----|
 | **รวมใน Watchlist** | 56 ตัว |
 | **Quick Screening** | 56 ตัว (100%) ✅ |
-| **Deep Dive Completed** | 4 ตัว (TLI, DELTA, TCAP, AEONTS) |
+| **Deep Dive Completed** | 5 ตัว (TLI, DELTA, TCAP, AEONTS, RPH) |
 | **Delisted/Removed** | 1 ตัว (INTOUCH) |
 | **ยังไม่ได้ทำ** | **0 ตัว** ✅ |
 
@@ -45,6 +45,7 @@ tags:
 | **DELTA** | 74 | **50** | **-24** | **Gate 0 FAIL** - ไม่มี SET ESG 2025 |
 | **TCAP** | 73 | **69** | **-4** | Holding structure, THANI NPL risk |
 | **AEONTS** | 51 | **54** | **+3** | NPL 5.9% verified, Coverage 152%, Q3 ลด YoY |
+| **RPH** | 65 | **42** | **-23** | **Gate 0 FAIL** - No SET ESG 2025 + Low Liquidity |
 
 ---
 
@@ -65,7 +66,7 @@ tags:
 | 4 | **TOA** | **68** | WATCH | Industrial | Paint leader 48.7%, dividend 6% | 12.50-12.80 THB | ✅ [[TOA Review - 2026-03-29-thai]] ⚠️ STARK risk |
 | 5 | **KTC** | **66** | WATCH | Financial | NPL 1.79%, Coverage 425% | 27.50-28.50 THB | ✅ [[KTC Review - 2026-03-29-thai]] ⚠️ ESG uncertain |
 | 6 | **TOP** | **66** | WATCH | Energy | Refinery cyclical | TBD | - |
-| 7 | **RPH** | **65** | WATCH | Healthcare | Regional hospital | TBD | - |
+| ~~RPH~~ | **42** | **PASS** | Healthcare | Gate 0 FAIL (No ESG + Low Liquidity) | - | ✅ [[RPH Deep Dive - 2026-03-29-thai]] |
 
 ---
 
@@ -76,6 +77,7 @@ tags:
 | Ticker | QSI | Gate 0 Reason | Key Issue |
 |--------|-----|---------------|-----------|
 | **DELTA** | **50** | ❌ No SET ESG 2025 | P/E 138.74x, P/BV 35.85x, ไม่มี ESG rating |
+| **RPH** | **42** | ❌ No SET ESG 2025 + Low Liquidity | Regional hospital, D/E 0.11x, Occupancy 62% |
 | **ETC** | **45** | ⚠️ Warning | Environmental services, small cap |
 | **SGC** | **45** | ⚠️ Warning | Free float 19%, hire purchase |
 | **XPG** | **38** | ⚠️ Warning | Investment company, digital asset risk |

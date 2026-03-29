@@ -77,16 +77,16 @@ tags:
 | [[TLI]] | ?% | **78** | ✅ WATCH | [[TLI Review - 2026-03-29-thai]] Life insurance |
 
 ### Property & REIT (8)
-| Ticker | MOS | QSI | Status | Review |
-|--------|-----|-----|--------|--------|
-| [[JAK]] | 88.1% | 56 | ✅ | [[JAK Review - 2026-03-28]] |
-| [[SC]] | 86.6% | - | ✅ | [[SC Review - 2026-03-26]] |
-| [[DREIT]] | 31.0% | 68 | ✅ INCOME | [[DREIT Review - 2026-03-28]] |
-| [[GREEN]] | 31.0% | 40 | ❌ PASS | [[GREEN Review - 2026-03-28]] Value trap |
-| [[PLAT]] | N/A | 60 | ⚠️ WATCH | [[PLAT Review - 2026-03-29-thai]] ⚠️ Capex 2.5x MC |
-| [[PRIME]] | 30.0% | 30 | ⚠️ SPECULATIVE | [[PRIME Review - 2026-03-28]] Going concern |
-| [[RPH]] | ?% | - | ⏳ | - |
-| [[SGC]] | ?% | - | ⏳ | - |
+| Ticker    | MOS   | QSI | Status         | Review                                             |
+| --------- | ----- | --- | -------------- | -------------------------------------------------- |
+| [[JAK]]   | 88.1% | 56  | ✅              | [[JAK Review - 2026-03-28]]                        |
+| [[SC]]    | 86.6% | -   | ✅              | [[SC Review - 2026-03-26]]                         |
+| [[DREIT]] | 31.0% | 68  | ✅ INCOME       | [[DREIT Review - 2026-03-28]]                      |
+| [[GREEN]] | 31.0% | 40  | ❌ PASS         | [[GREEN Review - 2026-03-28]] Value trap           |
+| [[PLAT]]  | N/A   | 60  | ⚠️ WATCH       | [[PLAT Review - 2026-03-29-thai]] ⚠️ Capex 2.5x MC |
+| [[PRIME]] | 30.0% | 30  | ⚠️ SPECULATIVE | [[PRIME Review - 2026-03-28]] Going concern        |
+| [[RPH]]   | ?%    | -   | ⏳              | -                                                  |
+| [[SGC]]   | ?%    | -   | ⏳              | -                                                  |
 
 ### Technology (6)
 | Ticker | MOS | QSI | Status | Review |
@@ -218,3 +218,7 @@ tags:
 ---
 
 *สร้างโดย Synapse-O • อัปเดต 2026-03-29 21:15*
+
+
+### Deep Dive Update (2026-03-29 22:00)
+| RPH | **2026-03-29** | **Healthcare** | **N/A** | **42** | **PASS** | [[RPH Deep Dive - 2026-03-29-thai]] Gate 0 FAIL (No ESG + Low Liquidity) |
