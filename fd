@@ -1,0 +1,189 @@
+[33mcommit 98519d5b7c818bfb2d3d2848b39ed2fa573b8138[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: b9b4ymiN <pro.thitipat@gmail.com>
+Date:   Sun Mar 29 13:09:30 2026 +0700
+
+    update : new knowleadage Howard,Seth
+
+[33mcommit 8961f30922d7e1c1f73a602debd82e0c7c870494[m
+Author: b9b4ymiN <pro.thitipat@gmail.com>
+Date:   Sun Mar 29 11:48:52 2026 +0700
+
+    Fix: Add rewrites for clean URLs on Vercel
+
+[33mcommit 1214f0c071d7af39b7735a3a734e0dcfd7eae6b4[m
+Author: b9b4ymiN <pro.thitipat@gmail.com>
+Date:   Sun Mar 29 11:40:42 2026 +0700
+
+    Add Vercel configuration
+
+[33mcommit 6ba86d6af9dd2f64e4b42a412f7993e73cfd4f39[m
+Author: b9b4ymiN <pro.thitipat@gmail.com>
+Date:   Sun Mar 29 11:32:29 2026 +0700
+
+    Initial commit: BF Knowledge Base
+    
+    - Quartz v4.5.2 setup
+    - Professional README with deployment guide
+    - GitHub Actions workflow for auto-deploy
+    - Custom index page for BF-Vault
+    
+    Co-Authored-By: Claude <noreply@anthropic.com>
+
+[33mcommit 59b58076016c5e5f09f16ab0395fed02e2ebb72e[m[33m ([m[1;31morigin/v4[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: wasita <wasita.mahaphanit.gr@dartmouth.edu>
+Date:   Wed Mar 4 10:42:49 2026 -0500
+
+    🐛 fix(cli): use 'gray' instead of 'grey' in styleText calls (#2321)
+    
+    Node.js util.styleText does not accept 'grey' as a format name.
+    While util.inspect.colors defines 'grey' as a non-enumerable alias
+    for 'gray', styleText validates against Object.keys(inspect.colors)
+    which only includes enumerable properties — so 'grey' has never
+    been a valid styleText format and throws ERR_INVALID_ARG_VALUE.
+
+[33mcommit 9576701d8532b9697df62c96d7c8676afd985b2d[m
+Author: Andrew G. Dunn <andrew@dunn.dev>
+Date:   Mon Mar 2 11:31:53 2026 -0500
+
+    fix: await micromorph() to prevent race condition with nav event handlers (#2323)
+    
+    micromorph() returns Promise<void> because its internal patch() function
+    is async and uses Promise.all for recursive child patching. Without
+    await, the DOM morph may still be in progress when the nav event fires
+    and downstream handlers attempt to rebuild dynamic content.
+    
+    Fixes #2322
+
+[33mcommit ec00a40aefca73596ab76e3ebe3a8e1129b43688[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Jan 27 13:27:17 2026 -0500
+
+    chore(deps): bump the production-dependencies group with 4 updates (#2289)
+    
+    Bumps the production-dependencies group with 4 updates: [lightningcss](https://github.com/parcel-bundler/lightningcss), [unist-util-visit](https://github.com/syntax-tree/unist-util-visit), [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) and [prettier](https://github.com/prettier/prettier).
+    
+    
+    Updates `lightningcss` from 1.30.2 to 1.31.1
+    - [Release notes](https://github.com/parcel-bundler/lightningcss/releases)
+    - [Commits](https://github.com/parcel-bundler/lightningcss/commits)
+    
+    Updates `unist-util-visit` from 5.0.0 to 5.1.0
+    - [Release notes](https://github.com/syntax-tree/unist-util-visit/releases)
+    - [Commits](https://github.com/syntax-tree/unist-util-visit/compare/5.0.0...5.1.0)
+    
+    Updates `@types/node` from 25.0.9 to 25.0.10
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    Updates `prettier` from 3.8.0 to 3.8.1
+    - [Release notes](https://github.com/prettier/prettier/releases)
+    - [Changelog](https://github.com/prettier/prettier/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/prettier/prettier/compare/3.8.0...3.8.1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: lightningcss
+      dependency-version: 1.31.1
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: unist-util-visit
+      dependency-version: 5.1.0
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: "@types/node"
+      dependency-version: 25.0.10
+      dependency-type: direct:development
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: prettier
+      dependency-version: 3.8.1
+      dependency-type: direct:development
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+[33mcommit 25a6747d7d63914c206d58d7d6ac3846d9934abe[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Jan 20 12:37:59 2026 -0500
+
+    chore(deps): bump the production-dependencies group across 1 directory with 5 updates (#2282)
+    
+    Bumps the production-dependencies group with 5 updates in the / directory:
+    
+    | Package | From | To |
+    | --- | --- | --- |
+    | [esbuild-sass-plugin](https://github.com/glromeo/esbuild-sass-plugin) | `3.3.1` | `3.6.0` |
+    | [preact](https://github.com/preactjs/preact) | `10.28.1` | `10.28.2` |
+    | [satori](https://github.com/vercel/satori) | `0.18.3` | `0.19.1` |
+    | [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/HEAD/types/node) | `25.0.3` | `25.0.9` |
+    | [prettier](https://github.com/prettier/prettier) | `3.7.4` | `3.8.0` |
+    
+    
+    
+    Updates `esbuild-sass-plugin` from 3.3.1 to 3.6.0
+    - [Release notes](https://github.com/glromeo/esbuild-sass-plugin/releases)
+    - [Commits](https://github.com/glromeo/esbuild-sass-plugin/commits)
+    
+    Updates `preact` from 10.28.1 to 10.28.2
+    - [Release notes](https://github.com/preactjs/preact/releases)
+    - [Commits](https://github.com/preactjs/preact/compare/10.28.1...10.28.2)
+    
+    Updates `satori` from 0.18.3 to 0.19.1
+    - [Release notes](https://github.com/vercel/satori/releases)
+    - [Commits](https://github.com/vercel/satori/compare/0.18.3...0.19.1)
+    
+    Updates `@types/node` from 25.0.3 to 25.0.9
+    - [Release notes](https://github.com/DefinitelyTyped/DefinitelyTyped/releases)
+    - [Commits](https://github.com/DefinitelyTyped/DefinitelyTyped/commits/HEAD/types/node)
+    
+    Updates `prettier` from 3.7.4 to 3.8.0
+    - [Release notes](https://github.com/prettier/prettier/releases)
+    - [Changelog](https://github.com/prettier/prettier/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/prettier/prettier/compare/3.7.4...3.8.0)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: esbuild-sass-plugin
+      dependency-version: 3.6.0
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: preact
+      dependency-version: 10.28.2
+      dependency-type: direct:production
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: satori
+      dependency-version: 0.19.1
+      dependency-type: direct:production
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    - dependency-name: "@types/node"
+      dependency-version: 25.0.9
+      dependency-type: direct:development
+      update-type: version-update:semver-patch
+      dependency-group: production-dependencies
+    - dependency-name: prettier
+      dependency-version: 3.8.0
+      dependency-type: direct:development
+      update-type: version-update:semver-minor
+      dependency-group: production-dependencies
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+    Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
+[33mcommit b4fb0e66821b8a597fb14e31dc3f59c12fef00f3[m
+Author: Emile Bangma <github@emilebangma.com>
+Date:   Tue Jan 20 18:37:40 2026 +0100
+
+    fix(explorer): mobile scroll containment (#2283)
+    
+    * fix(explorer): mobile scroll contaiment
+    
+    * only apply scroll containmen
