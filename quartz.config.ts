@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "localhost:8080",
+    baseUrl: "bf-knowledge-base.vercel.app",
     ignorePatterns: ["private", "templates", ".obsidian", ".trash", ".base"],
     defaultDateType: "modified",
     theme: {
