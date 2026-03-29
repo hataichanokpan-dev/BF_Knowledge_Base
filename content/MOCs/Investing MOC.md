@@ -18,6 +18,9 @@ tags:
 - [[Alpha Trinity Scanner]] - Automated DCF + MOS screening (82 หุ้น SET ผ่าน Wave 1)
 - [[CAN SLIM]] - ระบบหุ้นเติบโตของ William O'Neil
 - [[Jesse Stine's Superstock System]] - Microcap momentum
+- [[Jeffrey Neumann's Four Corners System]] - High conviction swing (Four Corners + Sector Cluster)
+- [[Howard Marks' Market Cycle & Risk Framework]] - Defensive value + Cycle positioning
+- [[Seth Klarman's Margin of Safety Framework]] - Deep value + Cash hoarding + Distressed debt
 
 ### สไตล์การลงทุน
 - [[Value Investing]] - ซื้อต่ำกว่ามูลค่าที่แท้จริง
@@ -44,6 +47,9 @@ tags:
 - [[Catalyst]] - อะไรขับเคลื่อนราคาหุ้น
 - [[Thesis]] - โครงสร้างเหตุผลการลงทุน
 - [[Dividend Play]] - กลยุทธ์เน้น yield สูง
+- [[Second-Level Thinking]] - คิดให้ลึกกว่าคนส่วนใหญ่ (Howard Marks)
+- [[Market Cycle]] - วัฏจักรของตลาด
+- [[Risk Management]] - จัดการความเสี่ยงแบบ Marks
 
 ## บริษัท
 
@@ -71,3 +77,12 @@ tags:
 ## MOC ที่เกี่ยวข้อง
 - [[Stock Reviews MOC]]
 - [[Projects MOC]]
+
+
+
+---
+
+## Scanner Projects
+
+- [[Alpha Trinity Scanner]] - Quality + Value (Damodaran + Klarman)
+- [[Neumann Stock Scanner]] - Momentum + Catalyst (Four Corners Framework)

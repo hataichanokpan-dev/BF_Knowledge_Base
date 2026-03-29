@@ -63,17 +63,18 @@ tags:
 | Ticker | MOS | QSI | Status | Review |
 |--------|-----|-----|--------|--------|
 | [[AEONTS]] | 0% | 51 | ⚠️ WATCH | [[AEONTS Review - 2026-03-29-thai]] ⚠️ NPL rising |
-| [[BAM]] | ?% | - | ⏳ | - |
-| [[BAY]] | ?% | - | ⏳ | - |
-| [[KTC]] | ?% | - | ⏳ | - |
-| [[MFC]] | ?% | - | ⏳ | - |
+| [[BAM]] | ?% | 56 | ⚠️ WATCH | Financial Batch Review |
+| [[BAY]] | ?% | 63 | ⚠️ WATCH | Financial Batch Review |
+| [[KTC]] | ?% | **66** | ⚠️ WATCH | [[KTC Review - 2026-03-29-thai]] ⚠️ ESG uncertain, KTB 49% |
+| [[MFC]] | ?% | 69 | ⚠️ WATCH | - |
 | [[MIPF]] | ?% | - | ⏳ | - |
 | [[MCS]] | ?% | 71 | ✅ WATCH | [[MCS Review - 2026-03-28]] ⚠️ Japan concentration 95% |
 | [[POPF]] | ?% | - | ⏳ | - |
 | [[SAWAD]] | 0.0% | 70 | ✅ | [[SAWAD Review - 2026-03-28]] |
-| [[SCAP]] | ?% | - | ⏳ | - |
-| [[TCAP]] | ?% | - | ⏳ | - |
-| [[THANI]] | ?% | - | ⏳ | - |
+| [[SCAP]] | ?% | 53 | ❌ PASS | - |
+| [[TCAP]] | ?% | **73** | ✅ WATCH | [[TCAP Review - 2026-03-29-thai]] P/BV 0.8x |
+| [[THANI]] | ?% | **61** | ⚠️ WATCH | [[THANI Review - 2026-03-29-thai]] Speculative |
+| [[TLI]] | ?% | **78** | ✅ WATCH | [[TLI Review - 2026-03-29-thai]] Life insurance |
 
 ### Property & REIT (8)
 | Ticker | MOS | QSI | Status | Review |
@@ -93,12 +94,12 @@ tags:
 | [[SIS]] | 69.8% | 74 | ✅ | [[SIS Review - 2026-03-28]] ⚠️ Scanner: Consumer → Tech |
 | [[AIT]] | N/A | 67 | ✅ | [[AIT Review - 2026-03-28]] ⚠️ Scanner: AS row used |
 | [[AS]] | 66.3% | - | ⚠️ | See AIT Review (ticker mismatch) |
-| [[ETC]] | ?% | - | ⏳ | - |
+| [[ETC]] | ?% | 45 | ❌ PASS | [[ETC Review - 2026-03-28]] |
 | [[FORTH]] | Industrials | 17.61 | N/A | ⏳ | [[FORTH Review - 2026-03-28]] |
 | [[SPVI]] | 73.7% | 64 | ⚠️ WATCH | [[SPVI Review - 2026-03-28]] |
-
-| [[SYNEX]] | ?% | - | ⏳ | - |
-| [[XPG]] | ?% | - | ⏳ | - |
+| [[DELTA]] | ?% | **74** | ✅ WATCH | [[DELTA Review - 2026-03-29-thai]] ⭐ Data Center |
+| [[SYNEX]] | ?% | 62 | ⚠️ WATCH | - |
+| [[XPG]] | ?% | 38 | ❌ PASS | - |
 
 ### Energy (4)
 | Ticker | MOS | QSI | Status | Review |
@@ -120,18 +121,16 @@ tags:
 ### Industrial (10)
 | Ticker | MOS | QSI | Status | Review |
 |--------|-----|-----|--------|--------|
-| [[BLA]] | ?% | - | ⏳ | - |
-| [[CPT]] | ?% | - | ⏳ | - |
-| [[DMT]] | 56.1% | 77 | ✅ | [[DMT Review - 2026-03-28]] |
-| [[PLAT]] | N/A | N71 | ⏳ | [[PLAT Review - 2026-03-28]] |
-
-| [[GPI]] | 43.6% | 80 | ✅ BUY | [[GPI Review - 2026-03-28]] ⭐ Motor Show |
+| [[BLA]] | ?% | 48 | ❌ PASS | - |
 | [[CPT]] | 30.2% | 79 | ✅ BUY | [[CPT Review - 2026-03-28]] ⭐ Data Center |
-| [[JDF]] | ?% | - | ⏳ | - |
-| [[SAK]] | ?% | - | ⏳ | - |
+| [[DMT]] | 56.1% | 77 | ✅ | [[DMT Review - 2026-03-28]] |
+| [[PLAT]] | N/A | 60 | ⚠️ WATCH | [[PLAT Review - 2026-03-29-thai]] ⚠️ Capex 2.5x MC |
+| [[GPI]] | 43.6% | 80 | ✅ BUY | [[GPI Review - 2026-03-28]] ⭐ Motor Show |
+| [[JDF]] | ?% | 53 | ❌ PASS | - |
+| [[SAK]] | ?% | **55** | ⚠️ WATCH | [[SAK Review - 2026-03-29-thai]] Borderline PASS |
 | [[SELIC]] | ?% | - | ⏳ | - |
-| [[SLP]] | ?% | - | ⏳ | - |
-| [[TNP]] | ?% | - | ⏳ | - |
+| [[SLP]] | ?% | 44 | ❌ PASS | - |
+| [[TNP]] | ?% | 59 | ⚠️ WATCH | [[TNP Review - 2026-03-28]] |
 
 ### Communication (5)
 | Ticker | MOS | QSI | Status | Review |
@@ -153,9 +152,9 @@ tags:
 |--------|--------|-----|-----|--------|--------|
 | [[TIF1]] | Fund | ?% | - | ⏳ | - |
 | [[TLI]] | Logistics | ?% | - | ⏳ | - |
-| [[TOA]] | Materials | ?% | - | ⏳ | - |
+| [[TOA]] | Materials | ?% | **68** | ⚠️ WATCH | [[TOA Review - 2026-03-29-thai]] ⚠️ STARK risk |
 | [[TSC]] | Services | ?% | - | ⏳ | - |
-| [[TTW]] | Utilities | ?% | - | ⏳ | - |
+| [[TTW]] | Utilities | ?% | **71** | ⚠️ WATCH | [[TTW Review - 2026-03-29-thai]] ⚠️ Concession risk |
 
 ---
 
@@ -163,9 +162,9 @@ tags:
 
 | Status | Count | Stocks |
 |--------|-------|--------|
-| ✅ Reviewed | **19** | BTG, AURA, MEGA, OSP, ADVANC, SAWAD, JAK, ONEE, AIT, SIS, SISB, UVAN, GPI, CPT, DREIT, GREEN, PRIME, MCS, PLAT |
+| ✅ Reviewed | **25** | BTG, AURA, MEGA, OSP, ADVANC, SAWAD, JAK, ONEE, AIT, SIS, SISB, UVAN, GPI, CPT, DREIT, GREEN, PRIME, MCS, PLAT, **KTC**, **TCAP**, **TLI**, **THANI**, **SAK**, **DELTA** |
 | ✅ Earlier | 3 | SC (03/26), AP (03/27), LH (03/27) |
-| ⏳ Pending | 38 | - |
+| ⏳ Pending | 31 | - |
 
 ### Reviewed Stocks (QSI Scores)
 
