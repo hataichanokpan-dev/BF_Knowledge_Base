@@ -3,8 +3,6 @@
   "outputDirectory": "public",
   "framework": null,
   "installCommand": "npm install",
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/$1.html" }
-  ]
+  "trailingSlash": false,
+  "cleanUrls": true
 }
