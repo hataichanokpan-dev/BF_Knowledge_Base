@@ -1,0 +1,49 @@
+filters:
+  and:
+    - note_type == "knowledge"
+    - file.ext == "md"
+formulas:
+  days_since_update: (now() - date(updated)).days
+  status_icon: if(status == "evergreen", "🌲", "🌱")
+properties:
+  status:
+    displayName: Status
+  topic:
+    displayName: Topic
+  domain:
+    displayName: Domain
+  formula.days_since_update:
+    displayName: Days Updated
+views:
+  - type: table
+    name: All Knowledge
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - formula.status_icon
+      - file.name
+      - topic
+      - domain
+      - status
+      - formula.days_since_update
+  - type: table
+    name: Recently Updated
+    filters:
+      and:
+        - formula.days_since_update < 30
+    order:
+      - file.name
+      - topic
+      - updated
+    limit: 20
+  - type: table
+    name: Needs Review
+    filters:
+      and:
+        - review_next != ""
+        - date(review_next) <= today()
+    order:
+      - file.name
+      - review_next
+      - topic

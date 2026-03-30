@@ -1,0 +1,14 @@
+formulas:
+  Type: ""
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.backlinks
+      - file.folder
+      - file.ext
+      - file.ctime
+    sort: []
+    columnSize:
+      file.backlinks: 369

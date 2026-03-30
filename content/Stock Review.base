@@ -1,0 +1,86 @@
+filters:
+  and:
+    - note_type == "stock-review"
+    - file.ext == "md"
+formulas:
+  days_since_review: (now() - date(review_date)).days
+  rating_icon: if(rating == "strong-buy", "🚀", if(rating == "buy", "📈", if(rating == "hold", "➡️", "🚫")))
+  status_badge: if(status == "watching", "👁️", if(status == "candidate", "📝", if(status == "entered", "💰", "❌")))
+  risk_icon: if(risk_level == "high", "🔴", if(risk_level == "medium", "🟡", "🟢"))
+properties:
+  ticker:
+    displayName: Ticker
+  company:
+    displayName: Company
+  status:
+    displayName: Status
+  rating:
+    displayName: Rating
+  sector:
+    displayName: Sector
+  strategy:
+    displayName: Strategy
+  review_date:
+    displayName: Reviewed
+  review_next:
+    displayName: Next Review
+  formula.days_since_review:
+    displayName: Days Ago
+views:
+  - type: table
+    name: Watchlist
+    filters:
+      or:
+        - status == "watching"
+        - status == "candidate"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - formula.status_badge
+      - formula.rating_icon
+      - ticker
+      - company
+      - sector
+      - strategy
+      - review_date
+  - type: table
+    name: Active Positions
+    filters:
+      and:
+        - status == "entered"
+    order:
+      - ticker
+      - company
+      - entry_zone
+      - risk_level
+      - review_next
+  - type: table
+    name: Needs Review
+    filters:
+      and:
+        - review_next != ""
+        - date(review_next) <= today()
+    order:
+      - ticker
+      - company
+      - review_next
+      - status
+  - type: table
+    name: By Sector
+    groupBy:
+      property: sector
+      direction: ASC
+    order:
+      - sector
+      - ticker
+      - company
+      - rating
+      - status
+  - type: cards
+    name: Gallery
+    order:
+      - ticker
+      - company
+      - thesis
+      - formula.rating_icon
