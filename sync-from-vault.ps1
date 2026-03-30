@@ -22,7 +22,8 @@ if (-not (Test-Path $CONTENT_PATH)) {
 }
 
 # Sync using robocopy
-$result = robocopy $VAULT_PATH $CONTENT_PATH /MIR /XD .obsidian .git private /XF .gitignore /R:0 /W:0 /NP /NDL 2>&1
+# Sync using robocopy (exclude Quartz framework files from BF-Vault)
+$result = robocopy $VAULT_PATH $CONTENT_PATH /MIR /XD .obsidian .git private content quartz docs .github node_modules /XF .gitignore fd package.json package-lock.json quartz.config.ts quartz.layout.ts tsconfig.json globals.d.ts index.d.ts .node-version .npmrc .prettierrc .prettierignore CODE_OF_CONDUCT.md LICENSE.txt Dockerfile README.md *.lock /R:0 /W:0 /NP /NDL 2>&1
 $exitCode = $LASTEXITCODE
 
 # robocopy exit codes: 0-7 = success, 8+ = error

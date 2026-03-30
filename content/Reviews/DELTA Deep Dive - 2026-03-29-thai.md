@@ -15,7 +15,7 @@ mos: N/A (Valuation แพงเกินไป)
 entry_zone: N/A
 stop_loss: N/A
 dividend_yield: 0.22%
-set_esg: '"- (NOT RATED)"'
+set_esg: "NOT RATED"
 free_float: High (SET50)
 tags:
   - note/review
