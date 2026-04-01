@@ -25,7 +25,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
-    ReadingTime(), // NEW: Show reading time
+    ReadingTime(), // Show reading time
     Component.ContentMeta(),
     Component.TagList(),
   ],
@@ -43,21 +43,27 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Component.RecentNotes({
-      title: "📖 บทความล่าสุด",
-      limit: 5,
-      showTags: true,
-    }), // NEW: Show recent notes in sidebar
+    // DesktopOnly: RecentNotes hidden on mobile to save space
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "📖 บทความล่าสุด",
+        limit: 5,
+        showTags: true,
+      }),
+    ),
   ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    RelatedNotes({
-      title: "🔗 บทความที่เกี่ยวข้อง",
-      limit: 5,
-      minTagOverlap: 1,
-    }), // NEW: Show related notes
+    // DesktopOnly: RelatedNotes hidden on mobile
+    Component.DesktopOnly(
+      RelatedNotes({
+        title: "🔗 บทความที่เกี่ยวข้อง",
+        limit: 5,
+        minTagOverlap: 1,
+      }),
+    ),
   ],
 }
 
@@ -77,11 +83,13 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Component.RecentNotes({
-      title: "📖 บทความล่าสุด",
-      limit: 5,
-      showTags: true,
-    }),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "📖 บทความล่าสุด",
+        limit: 5,
+        showTags: true,
+      }),
+    ),
   ],
   right: [],
 }
