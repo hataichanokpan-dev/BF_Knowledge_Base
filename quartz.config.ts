@@ -21,32 +21,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Playfair Display",
+        body: "Lora",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fdfbf7",       // warm paper
+          lightgray: "#e8e4dc",
+          gray: "#9a9a9a",
+          darkgray: "#5a5a5a",
+          dark: "#3d3d3d",        // softer than pure black
+          secondary: "#8b4513",   // saddle brown (book spine)
+          tertiary: "#a0522d",    // sienna
+          highlight: "rgba(139, 69, 19, 0.08)",
+          textHighlight: "rgba(139, 69, 19, 0.25)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1a1a1f",       // soft black
+          lightgray: "#2a2a30",
+          gray: "#6a6a70",
+          darkgray: "#c8c4bc",    // warm white
+          dark: "#e8e4dc",        // warm paper white
+          secondary: "#cd853f",   // peru (warm accent)
+          tertiary: "#d2691e",    // chocolate
+          highlight: "rgba(205, 133, 63, 0.12)",
+          textHighlight: "rgba(205, 133, 63, 0.3)",
         },
       },
     },
