@@ -1,6 +1,8 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 import ReadingProgress from "./quartz/components/ReadingProgress"
+import ReadingTime from "./quartz/components/ReadingTime"
+import RelatedNotes from "./quartz/components/RelatedNotes"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -23,6 +25,7 @@ export const defaultContentPageLayout: PageLayout = {
       condition: (page) => page.fileData.slug !== "index",
     }),
     Component.ArticleTitle(),
+    ReadingTime(), // NEW: Show reading time
     Component.ContentMeta(),
     Component.TagList(),
   ],
@@ -40,11 +43,21 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.RecentNotes({
+      title: "📖 บทความล่าสุด",
+      limit: 5,
+      showTags: true,
+    }), // NEW: Show recent notes in sidebar
   ],
   right: [
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    RelatedNotes({
+      title: "🔗 บทความที่เกี่ยวข้อง",
+      limit: 5,
+      minTagOverlap: 1,
+    }), // NEW: Show related notes
   ],
 }
 
@@ -64,6 +77,11 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.RecentNotes({
+      title: "📖 บทความล่าสุด",
+      limit: 5,
+      showTags: true,
+    }),
   ],
   right: [],
 }

@@ -24,6 +24,8 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import ReadingProgress from "./ReadingProgress"
+import ReadingTime from "./ReadingTime"
+import RelatedNotes from "./RelatedNotes"
 
 export {
   ArticleTitle,
@@ -52,4 +54,6 @@ export {
   Flex,
   ConditionalRender,
   ReadingProgress,
+  ReadingTime,
+  RelatedNotes,
 }
