@@ -220,7 +220,7 @@ hr {
     overflow-x: hidden;
   }
 
-  // Fix content wrapper
+  // Fix content wrapper - let content breathe
   .page > .page-content {
     max-width: 100%;
     padding: 0;
@@ -250,16 +250,29 @@ hr {
     }
   }
 
-  // Hide left sidebar completely on mobile (use toggle instead)
-  .left-sidebar,
+  // LEFT SIDEBAR: Keep visible for navigation
+  // The Explorer component handles its own mobile toggle
+  // Just hide RecentNotes on mobile to save space
   .sidebar.left {
+    // Don't hide - Explorer toggle works here
+    .recent-notes {
+      display: none; // Hide RecentNotes on mobile
+    }
+  }
+
+  // RIGHT SIDEBAR: Hide on mobile, show below content
+  .sidebar.right {
     display: none !important;
   }
 
-  // Hide right sidebar on mobile
-  .right-sidebar,
-  .sidebar.right {
-    display: none !important;
+  // Move RelatedNotes and Backlinks below article content
+  .related-notes,
+  .backlinks {
+    display: block !important;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: var(--highlight);
+    border-radius: 6px;
   }
 
   // Tag list compact on mobile
@@ -271,25 +284,6 @@ hr {
       font-size: 0.7rem;
       padding: 0.15em 0.4em;
     }
-  }
-
-  // Explorer toggle button (mobile menu)
-  .explorer-toggle.mobile-explorer {
-    display: flex !important;
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
-    z-index: 100;
-    background: var(--secondary);
-    color: var(--light);
-    border: none;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    cursor: pointer;
   }
 
   // Reading time compact
@@ -323,15 +317,6 @@ hr {
   .graph {
     display: none !important;
   }
-
-  // Related notes and backlinks - stack below content
-  .related-notes,
-  .backlinks {
-    margin-top: 2rem;
-    padding: 1rem;
-    background: var(--highlight);
-    border-radius: 6px;
-  }
 }
 
 // Tablet (768px - 1023px)
@@ -343,11 +328,11 @@ hr {
   }
 
   // Sidebars smaller on tablet
-  .left-sidebar {
+  .sidebar.left {
     max-width: 200px;
   }
 
-  .right-sidebar {
+  .sidebar.right {
     max-width: 200px;
   }
 }

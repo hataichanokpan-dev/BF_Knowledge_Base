@@ -43,7 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    // DesktopOnly: RecentNotes hidden on mobile to save space
+    // RecentNotes: Desktop only on mobile to save space
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "📖 บทความล่าสุด",
@@ -53,10 +53,13 @@ export const defaultContentPageLayout: PageLayout = {
     ),
   ],
   right: [
-    Component.Graph(),
+    // Graph: Desktop only (hidden on mobile)
+    Component.DesktopOnly(Component.Graph()),
+    // TOC: Desktop only (hidden on mobile)
     Component.DesktopOnly(Component.TableOfContents()),
+    // Backlinks: Show on all devices (important for navigation)
     Component.Backlinks(),
-    // DesktopOnly: RelatedNotes hidden on mobile
+    // RelatedNotes: Desktop only (hidden on mobile)
     Component.DesktopOnly(
       RelatedNotes({
         title: "🔗 บทความที่เกี่ยวข้อง",
