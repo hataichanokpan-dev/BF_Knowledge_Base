@@ -14,7 +14,7 @@ tags:
 
 ## 🎯 Thesis Statement
 
-> **PE Band Valuation ในตลาดไทย: ใช้ได้ แต่ต้องใช้อย่างรู้เท่าทัน**
+> **[[PE Band Valuation]] ในตลาดไทย: ใช้ได้ แต่ต้องใช้อย่างรู้เท่าทัน**
 > **Final Score: 55/100**
 
 **Topic:** PE Band Valuation - เครื่องมือประเมินมูลค่าที่ใช้ได้จริงหรือเป็นภาพลวงตา?
@@ -23,29 +23,29 @@ tags:
 
 ## ⚔️ Debate Structure
 
-| Round | หัวข้อ | Summary |
-|-------|--------|---------|
-| [[Round 1 Summary - Definition & Methodology]] | Definition & Backtest | PRO ชนะ - มีงานวิจัยชัดเจน |
-| [[Round 2 Summary - Theoretical Mechanisms]] | Mean Reversion | เสมอ - ทั้งคู่อธิบายได้ดี |
-| [[Round 3 Summary - Counter Arguments]] | Counter Arguments | CON ชนะ - ชี้ Survivorship Bias แหลมคม |
-| [[Round 4 Summary - Real-World Application]] | Application | PRO ชนะ - Framework ใช้ได้จริง |
-| [[Round 5 Summary - Final Verdict]] | Final Synthesis | เสมอ - ทั้งคู่ให้คำแนะนำดี |
+| Round                                          | หัวข้อ                | Summary                                |
+| ---------------------------------------------- | --------------------- | -------------------------------------- |
+| [[Round 1 Summary - Definition & Methodology]] | Definition & Backtest | PRO ชนะ - มีงานวิจัยชัดเจน             |
+| [[Round 2 Summary - Theoretical Mechanisms]]   | [[Mean Reversion]]    | เสมอ - ทั้งคู่อธิบายได้ดี              |
+| [[Round 3 Summary - Counter Arguments]]        | Counter Arguments     | CON ชนะ - ชี้ Survivorship Bias แหลมคม |
+| [[Round 4 Summary - Real-World Application]]   | Application           | PRO ชนะ - Framework ใช้ได้จริง         |
+| [[Round 5 Summary - Final Verdict]]            | Final Synthesis       | เสมอ - ทั้งคู่ให้คำแนะนำดี             |
 
 ---
 
 ## 📊 Final Verdict Summary
 
-| ฝั่ง | คะแนน | จุดยืน |
-|------|-------|--------|
-| **CODEX (PRO)** | 74/100 | ใช้ได้เป็น Timing Tool (มีเงื่อนไข) |
-| **GEMINI (CON)** | 35/100 | มีประโยชน์จำกัด (Value Trap Risk) |
-| **จานดัน** | 55/100 | ใช้ได้แต่ต้องรู้เท่าทัน |
+| ฝั่ง                 | คะแนน  | จุดยืน                              |
+| -------------------- | ------ | ----------------------------------- |
+| **[[CODEX]] (PRO)**  | 74/100 | ใช้ได้เป็น Timing Tool (มีเงื่อนไข) |
+| **[[GEMINI]] (CON)** | 35/100 | มีประโยชน์จำกัด (Value Trap Risk)   |
+| **จานดัน**           | 55/100 | ใช้ได้แต่ต้องรู้เท่าทัน             |
 
 ---
 
 ## ✅ Key Arguments (PRO)
 
-1. **Backtest ในตลาดไทย** - Sareewiwatthana (2014): Low PE Portfolio ชนะ SET TRI 8/11 ปี
+1. **[[Backtest]] ในตลาดไทย** - Sareewiwatthana (2014): Low PE Portfolio ชนะ SET TRI 8/11 ปี
 2. **Mean Reversion ใช้ได้** - SET มีรอบ valuation ชัดเจน
 3. **ใช้ได้กับ Quality Compounder** - Healthcare, Telco, Utility
 4. **มี Framework ชัดเจน** - Checklist 7 ข้อ + Universe selection
@@ -63,12 +63,12 @@ tags:
 
 ## 🤝 Common Ground (จุดร่วม)
 
-| จุดร่วม | ความหมาย |
-|---------|----------|
-| PE Band ไม่ใช่เครื่องมือเดี่ยว | ต้องใช้ร่วมกับวิธีอื่นเสมอ |
-| ต้องคัดกรองหุ้นก่อนใช้ | หุ้นบางประเภทใช้ไม่ได้ |
-| ROIC-WACC สำคัญ | เป็นตัวชี้วัดหลักที่ต้องเช็ค |
-| Forward PE > Trailing PE | ใช้คาดการณ์ดีกว่าย้อนหลัง |
+| จุดร่วม                            | ความหมาย                     |
+| ---------------------------------- | ---------------------------- |
+| PE Band ไม่ใช่เครื่องมือเดี่ยว     | ต้องใช้ร่วมกับวิธีอื่นเสมอ   |
+| ต้องคัดกรองหุ้นก่อนใช้             | หุ้นบางประเภทใช้ไม่ได้       |
+| [[ROIC-WACC]] สำคัญ                | เป็นตัวชี้วัดหลักที่ต้องเช็ค |
+| **[[Forward PE]] > [[Trailing PE]] | ใช้คาดการณ์ดีกว่าย้อนหลัง    |
 
 ---
 
@@ -76,7 +76,7 @@ tags:
 
 1. **PE Band = เรดาร์ ไม่ใช่ปืน** → เห็นสัญญาณแล้วต้อง Deep Dive
 2. **Check ROIC-WACC ก่อนทุกครั้ง** → ติดลบ = ห้ามใช้ PE Band
-3. **ต้องมีอย่างน้อย 2 วิธีประเมิน** → PE Band + DCF หรือ EV/EBITDA
+3. **ต้องมีอย่างน้อย 2 วิธีประเมิน** → PE Band + DCF หรือ [[EV/EBITDA]]
 4. **ถาม "ทำไม" เสมอ** → ทำไม PE ถึงต่ำ/สูง? มี Structural Issue ไหม?
 5. **ทบทวนทุกไตรมาส** → Earnings revision = Band revision
 
