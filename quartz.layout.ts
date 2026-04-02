@@ -43,14 +43,14 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    // RecentNotes: Desktop only on mobile to save space
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "📖 บทความล่าสุด",
-        limit: 5,
-        showTags: true,
-      }),
-    ),
+    // RecentNotes: Disabled
+    // Component.DesktopOnly(
+    //   Component.RecentNotes({
+    //     title: "📖 บทความล่าสุด",
+    //     limit: 5,
+    //     showTags: true,
+    //   }),
+    // ),
   ],
   right: [
     // Graph: Desktop only (hidden on mobile)
@@ -86,13 +86,14 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "📖 บทความล่าสุด",
-        limit: 5,
-        showTags: true,
-      }),
-    ),
+    // RecentNotes: Disabled
+    // Component.DesktopOnly(
+    //   Component.RecentNotes({
+    //     title: "📖 บทความล่าสุด",
+    //     limit: 5,
+    //     showTags: true,
+    //   }),
+    // ),
   ],
   right: [],
 }
