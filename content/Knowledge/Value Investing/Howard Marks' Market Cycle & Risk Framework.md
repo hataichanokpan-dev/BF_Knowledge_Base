@@ -1,25 +1,86 @@
-## 🗺️ ภาพรวมก่อนเริ่ม — ทำไม Marks ถึงทำได้
+---
+title: "Howard Marks' Market Cycle & Risk Framework"
+aliases:
+  - Market Cycle
+  - Oaktree Capital
+  - Howard Marks
+  - Second-Level Thinking
+  - Most Important Thing
+  - Cycle Mastery
+tags:
+  - investing
+  - value
+  - cycles
+  - risk-management
+  - contrarian
+  - defensive
+  - oaktree
+  - distressed-debt
+  - second-level-thinking
+author: Howard Marks
+source: "The Most Important Thing + Mastering the Market Cycle + Oaktree Memos (1990-2025)"
+date: 2026-04-02
+category: Value Investing
+status: Completed
+version: 1.0
+---
 
-วิธีของ [[Howard Marks]] (Oaktree Capital) คือ [[Defensive Value Investing]] บน [[Distressed Debt]] และสินทรัพย์ที่ตลาดทอดทิ้ง โดยเน้น [[Risk Management]] เป็นหัวใจ และใช้ [[Second-Level Thinking]] เพื่อหาจุดที่ตลาดคิดผิด
+# Howard Marks' Market Cycle & Risk Framework
 
-> **คติประจำใจ:** *"If we avoid the losers, the winners will take care of themselves."*
+> **"If we avoid the losers, the winners will take care of themselves."**
+> — Howard Marks, Oaktree Capital
+
+> **"You can't predict. You can prepare."**
+> — Howard Marks
 
 ---
 
-## ส่วนที่ 1 — Second-Level Thinking: คิดให้ลึกกว่าคนส่วนใหญ่
+## 🎯 Executive Summary
 
-Marks โต้แย้งว่าการเอาชนะตลาด (alpha) เป็นไปไม่ได้ถ้าคุณคิดเหมือนคนส่วนใหญ่ เขาแบ่งการคิดออกเป็น 2 ระดับ:
+**Oaktree Capital Approach:** [[Defensive Value Investing]] บน [[Distressed Debt]] และสินทรัพย์ที่ตลาดทอดทิ้ง
 
-### 🧠 First-Level vs Second-Level Thinking
+| Element | Description |
+|---------|-------------|
+| **Core Philosophy** | Risk-First Investing + Second-Level Thinking |
+| **Expertise** | Distressed Debt, High Yield Bonds, Special Situations |
+| **Track Record** | 35+ years, $100B+ AUM, Consistent risk-adjusted returns |
+| **Key Edge** | Cycle Positioning + Psychological Awareness |
+| **Bestselling Book** | *The Most Important Thing* (Buffett reads every memo) |
+
+### 🔑 The Marks Advantage
+
+> **Buffett:** *"I drop everything to read Howard Marks's memos"*
+
+---
+
+## 🧠 Part 1: Second-Level Thinking
+
+### First-Level vs Second-Level Thinking
+
+Marks โต้แย้งว่าการเอาชนะตลาด (alpha) เป็นไปไม่ได้ถ้าคุณคิดเหมือนคนส่วนใหญ่
 
 | First-Level (คนส่วนใหญ่) | Second-Level (Marks) |
-|---|---|
+|:---|:---|
 | "บริษัทดี → ซื้อหุ้น" | "บริษัทดี แต่ทุกคนคิดว่ายิ่งกว่าดี → ราคาเกินพอดี → ขาย" |
 | "เศรษฐกิจแย่ → ขาย" | "เศรษฐกิจแย่ แต่ทุกคนขายตื่น → ราคาต่ำกว่ามูลค่า → ซื้อ" |
 | "บริษัทเติบโต 20% → ซื้อ" | "เติบโต 20% แต่ตลาดคาด 30% → ผิดคาด → ราคาจะตก" |
 | "หุ้นตก → อันตราย" | "หุ้นตก → ราคาถูกลง → โอกาส" |
 
+> 💡 **กฎเหล็ก:** Outperformance ต้องการการคิดที่ **both different AND better** than consensus — ผิดคนเดียวไม่พอ ต้องผิดแล้วถูกด้วย
+
 ### คำถามที่ Second-Level Thinker ต้องถามเสมอ
+
+```mermaid
+mindmap
+  root((Second-Level Thinking))
+    What is priced in?
+    Where is consensus wrong?
+    Probability-weighted outcomes?
+    What has to go right?
+    Downside if wrong?
+```
+
+**The 5 Questions:**
 
 1. **"What is priced in?"** — ตลาดคาดหวังอะไรไว้แล้ว?
 2. **"Where is consensus wrong?"** — ฉันทามติผิดตรงไหน?
@@ -27,47 +88,52 @@ Marks โต้แย้งว่าการเอาชนะตลาด (alp
 4. **"What has to go right to justify current valuation?"** — อะไรต้องเป็นไปตามที่คาดเพื่อให้ราคาปัจจุบันสมเหตุผล?
 5. **"What is downside if consensus is wrong?"** — ถ้าฉันทามติผิด ขาดทุนเท่าไหร่?
 
-> 💡 **กฎเหล็ก:** Outperformance ต้องการการคิดที่ **both different AND better** than consensus — ผิดคนเดียวไม่พอ ต้องผิดแล้วถูกด้วย
-
 ---
 
-## ส่วนที่ 2 — Market Cycles: เข้าใจจังหวะของตลาด
+## 🔄 Part 2: Market Cycles
+
+### The Cycle Mechanism
 
 Marks ไม่เชื่อในการทำนายอนาคต แต่เชื่อในการรู้ว่า **"ตอนนี้เราอยู่ตรงไหนของวัฏจักร"**
 
-### 📊 กลไก Cycle แบบ Marks
-
-```
-Good Times → Optimism Rises → Credit Loosens → Risk-Taking Expands
-     ↑                                                        ↓
-     ↑                                                        ↓
-Bargains Appear ← Forced Selling ← Losses Emerge ← Bad Projects Funded
+```mermaid
+graph LR
+    A[Good Times] --> B[Optimism Rises]
+    B --> C[Credit Loosens]
+    C --> D[Risk-Taking Expands]
+    D --> E[Bad Projects Funded]
+    E --> F[Losses Emerge]
+    F --> G[Forced Selling]
+    G --> H[Bargains Appear]
+    H --> A
 ```
 
 ### ประเภทของ Cycles ที่ Marks เน้น
 
-| Cycle | ลักษณะ | สิ่งที่ต้องสังเกต |
-|---|---|---|
-| **Economic Cycle** | GDP growth เป็นตัวขับเคลื่อน | ช้าและคงที่ ไม่ค่อยเปลี่ยนเร็ว |
-| **Credit Cycle** ⭐ | ตัวสำคัญที่สุดของ Marks | "Worst loans made in best of times" |
-| **Psychology Cycle** | อารมณ์ของนักลงทุน | Fear ↔ Greed, Pessimism ↔ Euphoria |
-| **Risk Appetite Cycle** | ความเสี่ยงที่ยอมรับได้ | ช่วงดีรับความเสี่ยงสูง ช่วงแย่หนีความเสี่ยง |
+| Cycle | ลักษณะ | สิ่งที่ต้องสังเกต | Importance |
+|:---|:---|:---|:---:|
+| **Economic Cycle** | GDP growth เป็นตัวขับเคลื่อน | ช้าและคงที่ ไม่ค่อยเปลี่ยนเร็ว | ⭐⭐ |
+| **Credit Cycle** ⭐ | เงินกู้หลัก/รอง | "Worst loans made in best of times" | ⭐⭐⭐ |
+| **Psychology Cycle** | อารมณ์ของนักลงทุน | Fear ↔ Greed | ⭐⭐⭐ |
+| **Risk Appetite Cycle** | ความเสี่ยงที่ยอมรับได้ | ช่วงดีรับสูง ช่วงแย่หนี | ⭐⭐⭐ |
 
-### 🔔 สัญญาณ Credit Cycle ที่ต้องจำ
+### 🔔 Credit Cycle Signals
+
+> **"The cycle in financial markets goes from 'I won't do it' to 'I won't miss it'."**
 
 **ช่วง Late Cycle (ระวัง):**
-- เงินกู้ง่าย ดอกเบี้ยต่ำ
-- Covenant อ่อนแอ
-- บริษัทแย่ได้เงินกู้ง่าย
-- LBO เกิดขึ้นบ่อย
-- Yield spread แคบผิดปกติ
+- [ ] เงินกู้ง่าย ดอกเบี้ยต่ำ
+- [ ] Covenant อ่อนแอ
+- [ ] บริษัทแย่ได้เงินกู้ง่าย
+- [ ] LBO เกิดขึ้นบ่อย
+- [ ] Yield spread แคบผิดปกติ
 
 **ช่วง Crisis (โอกาส):**
-- ตลาดเงินแข็งตัว
-- แม้แต่บริษัทดีกู้ยาก
-- Forced selling ทั่วทุกแห่ง
-- Yield spread กว้างมาก
-- "Nobody is buying"
+- [ ] ตลาดเงินแข็งตัว
+- [ ] แม้แต่บริษัทดีกู้ยาก
+- [ ] Forced selling ทั่วทุกแห่ง
+- [ ] Yield spread กว้างมาก
+- [ ] "Nobody is buying"
 
 ### The Pendulum Metaphor
 
@@ -86,26 +152,27 @@ Low Risk                                                      High Risk
 
 ---
 
-## ส่วนที่ 3 — Risk Management: ป้องกันดีกว่ารักษา
+## 🛡️ Part 3: Risk Management
 
 ### นิยามความเสี่ยงของ Marks
 
-Academic finance: Risk = Volatility (Beta)
+| Approach | นิยาม |
+|:---|:---|
+| **Academic Finance** | Risk = Volatility (Beta) |
+| **Howard Marks** | **Risk = Probability of Permanent Capital Loss** |
 
-**Marks:** Risk = **Probability of Permanent Capital Loss**
-
-### 🛡️ Defensive Investing Framework
+### Defensive Investing Framework
 
 Marks ไม่ได้หมายถึง "หลีกเลี่ยงความเสี่ยงทั้งหมด" แต่หมายถึง:
 
-| หลีกเลี่ยง | ทำ |
-|---|---|
+| ❌ หลีกเลี่ยง | ✅ ทำ |
+|:---|:---|
 | ❌ สินทรัพย์ไม่มีคุณภาพ | ✅ Underwrite อย่างละเอียด |
 | ❌ จ่ายเกินมูลค่า | ✅ ซื้อต่ำกว่า Intrinsic Value |
 | ❌ Leverage ที่บังคับขายได้ | ✅ ถือ Cash สำรอง |
 | ❌ หลงลืมวินัยช่วงตลาดดี | ✅ รักษามาตรฐานเข้มงวด |
 
-### Risk vs Return แบบผิด vs แบบถูก
+### Risk vs Return Reality
 
 **❌ แบบผิด (Traditional):**
 ```
@@ -121,25 +188,23 @@ Risk →→ [Variance of Outcomes] →→
     (Possible)           (Also Possible)
 ```
 
-### ความจริงเรื่อง Risk
+### 4 ความจริงเรื่อง Risk
+
+> **"You only find out who is swimming naked when the tide goes out."** — Warren Buffett
 
 1. **Risk ซ่อนอยู่** — มองไม่เห็นจนกว่าจะถูกทดสอบ
 2. **Risk สูงสุดตอนที่ทุกคนคิดว่าปลอดภัย** (ช่วง Greed)
 3. **Risk ต่ำสุดตอนที่ทุกคนกลัว** (ช่วง Panic)
 4. **Risk ไม่ใช่ Volatility** — ขายทุนหายถาวรต่างจากขึ้นลงชั่วคราว
 
-> 💬 **คำคม:** *"You only find out who is swimming naked when the tide goes out."* — Warren Buffett (ที่ Marks ชอบอ้างถึง)
-
 ---
 
-## ส่วนที่ 4 — Famous Memos: บทเรียนจาก 35 ปีของ Marks
+## 📜 Part 4: Famous Memos (1990-2025)
 
-Buffett: *"I drop everything to read Howard Marks's memos"*
-
-### 📜 Memo สำคัญที่ต้องรู้
+### Memos สำคัญที่ต้องรู้
 
 | Memo | ปี | บทเรียนหลัก |
-|---|---|---|
+|:---|:-:|:---|
 | **The Route to Performance** | 1990 | หลีกเลี่ยงหายนะดีกว่าสวนโลก |
 | **You Can't Predict. You Can Prepare.** | 2001 | ทำนายไม่ได้ แต่เตรียมตัวได้ |
 | **Risk / Risk Revisited Again** | 2006/2015 | Risk หลายมิติ วัดไม่ครบ |
@@ -152,9 +217,7 @@ Buffett: *"I drop everything to read Howard Marks's memos"*
 | **On Bubble Watch** | 2025 | ตลาดแพง ≠ ฟองสบู่ |
 | **The Indispensability of Risk** | 2024 | ไม่มีความเสี่ยง = ไม่มีผลตอบแทน |
 
-### บทเรียนจาก The Limits to Negativism (Oct 2008)
-
-Memo นี้เขียนตอนวิกฤตการเงินสหรัฐ ถือเป็นตัวอย่างการ contrarian ที่ดีที่สุด:
+### 🏆 Case Study: The Limits to Negativism (Oct 2008)
 
 **สถานการณ์:**
 - หนี้ซื้อขายที่ 30 cents on the dollar
@@ -170,33 +233,41 @@ Memo นี้เขียนตอนวิกฤตการเงินสห
 
 ---
 
-## ส่วนที่ 5 — The Most Important Thing: 20 สิ่งสำคัญ
+## 🏗️ Part 5: The 20 Most Important Things
 
 หนังสือของ Marks มี 20 "Most Important Things" ที่จริงๆ แล้วต้องทำพร้อมกัน
 
 ### 5 Pillars ของ Marks Framework
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    HOWARD MARKS FRAMEWORK                    │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│  🧠 THINKING EDGE                    💎 VALUE DISCIPLINE     │
-│  • Second-Level Thinking            • Intrinsic Value        │
-│  • Market Efficiency Limits         • Price-Value Gap        │
-│  • Knowing What You Don't Know      • Bargain Hunting        │
-│                                                              │
-│  🛡️ RISK ARCHITECTURE               🔄 CYCLE BEHAVIOR        │
-│  • Understanding Risk               • Cycles                 │
-│  • Recognizing Risk                 • Pendulum Psychology    │
-│  • Controlling Risk                 • Where We Stand         │
-│  • Defensive Investing                                       │
-│                                                              │
-│              ⚡ EXECUTION UNDER UNCERTAINTY ⚡                │
-│              • Contrarianism • Patient Opportunism           │
-│              • Avoiding Pitfalls • Role of Luck              │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph HOWARD_MARKS_FRAMEWORK[Howard Marks Framework]
+        THINKING[🧠 Thinking Edge]
+        VALUE[💎 Value Discipline]
+        RISK[🛡️ Risk Architecture]
+        CYCLE[🔄 Cycle Behavior]
+        EXECUTION[⚡ Execution Under Uncertainty]
+    end
+
+    THINKING --> Second[Second-Level Thinking]
+    THINKING --> Efficiency[Market Efficiency Limits]
+    THINKING --> Unknown[Knowing What You Don't Know]
+
+    VALUE --> Intrinsic[Intrinsic Value]
+    VALUE --> Gap[Price-Value Gap]
+    VALUE --> Bargain[Bargain Hunting]
+
+    RISK --> Understanding[Understanding Risk]
+    RISK --> Recognizing[Recognizing Risk]
+    RISK --> Controlling[Controlling Risk]
+
+    CYCLE --> Cycles[Cycles]
+    CYCLE --> Pendulum[Pendulum Psychology]
+    CYCLE --> Where[Where We Stand]
+
+    EXECUTION --> Contrarian[Contrarianism]
+    EXECUTION --> Opportunism[Patient Opportunism]
+    EXECUTION --> Pitfalls[Avoiding Pitfalls]
 ```
 
 ### 20 Most Important Things (สรุป)
@@ -233,20 +304,22 @@ Memo นี้เขียนตอนวิกฤตการเงินสห
 
 ---
 
-## ส่วนที่ 6 — Contrarian Approach: ผิดคนตอนไหน
+## 🎭 Part 6: Contrarian Approach
+
+> **"To buy when others are despondently selling and to sell when others are euphorically buying takes the greatest courage, but provides the greatest profit."**
 
 Marks **ไม่ใช่** contrarian ตลอดเวลา — เขา contrarian เฉพาะตอนที่ consensus ขับราคาไปสู่ขีดสุด
 
 ### เมื่อไหร่ควร Contrarian
 
-| สถานการณ์ | Action |
-|---|---|
-| Consensus ขาวสด (ทุกคนเห็นตรงกัน) | ⚠️ ระวัง |
-| Financing ง่ายเกินไป | ⚠️ ระวัง |
-| Valuations พุ่งพรวด | ⚠️ ระวัง |
-| Panic selling ทั่วทุกแห่ง | ✅ ซื้อ |
-| ไม่มีใครกล้าพูดถึง sector | ✅ สนใจ |
-| "End of world" narrative | ✅ ซื้อหนัก |
+| สถานการณ์ | Action | Reason |
+|:---|:---|:---|
+| Consensus ขาวสด (ทุกคนเห็นตรงกัน) | ⚠️ ระวัง | No edge |
+| Financing ง่ายเกินไป | ⚠️ ระวัง | Late cycle |
+| Valuations พุ่งพรวด | ⚠️ ระวัง | Euphoria |
+| Panic selling ทั่วทุกแห่ง | ✅ ซื้อ | Opportunity |
+| ไม่มีใครกล้าพูดถึง sector | ✅ สนใจ | Forgotten value |
+| "End of world" narrative | ✅ ซื้อหนัก | Extreme fear |
 
 ### "Catching Falling Knives"
 
@@ -256,7 +329,7 @@ Marks **ไม่ใช่** contrarian ตลอดเวลา — เขา c
 
 **เงื่อนไข:** ต้องใส่ถุงมือเหล็ก (fundamental valuation แน่นแฟ้น)
 
-### ตัวอย่าง Historical Extremes ที่ Marks อ้างถึง
+### Historical Extremes ที่ Marks อ้างถึง
 
 1. **Nifty Fifty Unwind** (1970s)
 2. **Dot-com Bust** (2000)
@@ -265,7 +338,7 @@ Marks **ไม่ใช่** contrarian ตลอดเวลา — เขา c
 
 ---
 
-## ส่วนที่ 7 — Distressed Debt: ความเชี่ยวชาญของ Oaktree
+## 💰 Part 7: Distressed Debt Expertise
 
 Marks และ Bruce Karsh เป็นผู้บุกเบิก distressed debt investing ในทศวรรษ 1980
 
@@ -280,22 +353,18 @@ Marks และ Bruce Karsh เป็นผู้บุกเบิก distresse
 
 ### Distressed Debt Playbook
 
-```
-Step 1: Buy debt at discount (e.g., 40 cents on dollar)
-         ↓
-Step 2: Underwrite asset coverage & cash generation
-         ↓
-Step 3: Participate actively in restructuring
-         ↓
-Step 4: Convert debt to equity (if attractive)
-         ↓
-Step 5: Own debt-free, healthy company
+```mermaid
+graph LR
+    A[Step 1: Buy debt at discount<br/>e.g. 40 cents on dollar] --> B[Step 2: Underwrite<br/>asset coverage]
+    B --> C[Step 3: Participate in<br/>restructuring]
+    C --> D[Step 4: Convert debt<br/>to equity]
+    D --> E[Step 5: Own debt-free<br/>healthy company]
 ```
 
 ### ทำไม Distressed Debt ดีกว่า Equity บางครั้ง
 
 | Distressed Debt | Equity |
-|---|---|
+|:---|:---|
 | มีสิทธิ์เหนือกว่าในการชำระหนี้ | อยู่ล่างสุดของ capital structure |
 | กำหนดได้ว่าจะได้อะไรคืน | ขึ้นกับ turnaround |
 | มีกฎหมายคุ้มครอง (Chapter 11) | ไม่มีการคุ้มครองพิเศษ |
@@ -303,28 +372,28 @@ Step 5: Own debt-free, healthy company
 
 ---
 
-## ส่วนที่ 8 — Key Quotes & Mental Models
+## 🧠 Part 8: Key Quotes & Mental Models
 
 ### 💬 คำคมสำคัญ
 
 > *"You can't predict. You can prepare."*
-
+>
 > *"If we avoid the losers, the winners will take care of themselves."*
-
+>
 > *"To buy when others are despondently selling and to sell when others are euphorically buying takes the greatest courage, but provides the greatest profit."*
-
+>
 > *"Experience is what you got when you didn't get what you wanted."*
-
+>
 > *"Rule No. 1: Most things will prove to be cyclical. Rule No. 2: Some of the greatest opportunities for gain and loss come when other people forget Rule No. 1."*
-
+>
 > *"Being too far ahead of your time is indistinguishable from being wrong."*
-
+>
 > *"There is no such thing as a good or bad asset, only a good or bad price."*
 
-### 🧠 Mental Models ที่ Marks ใช้ซ้ำๆ
+### Mental Models ที่ Marks ใช้ซ้ำๆ
 
 | Model | ความหมาย | การใช้งาน |
-|---|---|---|
+|:---|:---|:---|
 | **Pendulum** | จิตวิทยาตลาดแกว่งเกินพอดีทั้งสองทิศทาง | หาจุดขีดสุด |
 | **Cycle Positioning** | รู้ว่าอยู่ตรงไหนของวัฏจักร | ปรับความก้าวร้าว |
 | **Asymmetry** | Upside/Downside สำคัญกว่าเรื่องราว | มอง risk/reward |
@@ -333,48 +402,52 @@ Step 5: Own debt-free, healthy company
 
 ---
 
-## ส่วนที่ 9 — การประยุกต์ใช้กับ Stock Investing
+## 📋 Part 9: Practical Application
 
 ### Checklist ก่อนซื้อทุกครั้ง
 
+```mermaid
+graph TD
+    Start[Investment Decision] --> SLT{Second-Level Thinking}
+    SLT -->|What is consensus?| Q1
+    SLT -->|What is priced in?| Q2
+    SLT -->|Where might consensus be wrong?| Q3
+
+    Q1 --> Cycle{Cycle Positioning}
+    Q2 --> Cycle
+    Q3 --> Cycle
+
+    Cycle -->|Where in credit cycle?| C1
+    Cycle -->|Where in psychology cycle?| C2
+    Cycle -->|Risk appetite high/low?| C3
+
+    C1 --> Risk{Risk Assessment}
+    C2 --> Risk
+    C3 --> Risk
+
+    Risk -->|Probability of permanent loss?| R1
+    Risk -->|Asymmetric payoff?| R2
+    Risk -->|Below intrinsic value?| R3
+
+    R1 --> Contra{Contrarian Check}
+    R2 --> Contra
+    R3 --> Contra
+
+    Contra -->|Is everyone agreeing?| CC1
+    Contra -->|Financing too easy/hard?| CC2
+    Contra -->|Narrative one-sided?| CC3
+
+    CC1 --> Decision{Decision}
+    CC2 --> Decision
+    CC3 --> Decision
+
+    Decision -->|All checks pass| Buy[BUY]
+    Decision -->|Any check fails| Wait[WAIT/REJECT]
 ```
-□ 1. Consensus expectation คืออะไร?
-□ 2. อะไรถูก priced in แล้ว?
-□ 3. อะไรต้องเป็นไปตามที่คาดเพื่อให้ราคาปัจจุบันสมเหตุผล?
-□ 4. ถ้า consensus ผิด downside เท่าไหร่?
-□ 5. นี่คือ cycle-high enthusiasm หรือ cycle-low despair?
-□ 6. Risk of permanent loss เท่าไหร่?
-□ 7. Asymmetry (upside vs downside) ดีไหม?
-```
 
-### Portfolio Rules แบบ Marks
+### One-Page Checklist
 
-| Rule | คำอธิบาย |
-|---|---|
-| **Position-size by downside** | ขนาดสถานะตามความเสี่ยง ไม่ใช่ conviction อย่างเดียว |
-| **Keep liquidity for dislocations** | เก็บ Cash รอช่วง panic |
-| **Reduce when standards deteriorate** | ลด exposure ตอน valuations + underwriting แย่ลง |
-| **Add when fear creates bargains** | เพิ่ม exposure ตอน panic |
-
-### ตัวอย่างการใช้ Framework
-
-**ช่วง Late-Cycle Euphoria:**
-- Trim "story stocks" ที่ valuation ต้องการ perfect execution
-- หลีกเลี่ยง high-flying IPOs
-- เพิ่ม cash position
-- เน้น quality + value
-
-**ช่วง Panic Phase:**
-- เพิ่ม financially resilient businesses
-- ที่ถูกตีราคาเหมือน distress เป็นถาวร
-- แต่จริงๆ เป็นชั่วคราว
-- Focus on survivors
-
----
-
-## 🗂️ สรุปเป็น One-Page Checklist ใช้งานทันที
-
-```
+```markdown
 ✅ SECOND-LEVEL THINKING
 □ What is consensus expectation?
 □ What is priced in?
@@ -412,28 +485,60 @@ Step 5: Own debt-free, healthy company
 □ Am I prepared to be early (and look wrong)?
 ```
 
----
+### Portfolio Rules แบบ Marks
 
-## 📚 Sources
-
-- The Most Important Thing (Book) by Howard Marks
-- Mastering the Market Cycle (Book) by Howard Marks
-- Oaktree Capital Memos (1990-2025)
-- Unknown Market Wizards by Jack Schwager
+| Rule | คำอธิบาย |
+|:---|:---|
+| **Position-size by downside** | ขนาดสถานะตามความเสี่ยง ไม่ใช่ conviction อย่างเดียว |
+| **Keep liquidity for dislocations** | เก็บ Cash รอช่วง panic |
+| **Reduce when standards deteriorate** | ลด exposure ตอน valuations + underwriting แย่ลง |
+| **Add when fear creates bargains** | เพิ่ม exposure ตอน panic |
 
 ---
 
 ## 🔗 Related Concepts
 
-- [[Value Investing]]
-- [[Margin of Safety]]
-- [[Distressed Debt]]
-- [[Market Cycle]]
-- [[Contrarian Investing]]
-- [[Risk Management]]
-- [[Seth Klarman]]
-- [[Oaktree Capital]]
+- [[Value Investing]] - รากฐานของ approach
+- [[Margin of Safety]] - ซื้อถูกป้องกัน downside
+- [[Distressed Debt]] - ความเชี่ยวชาญพิเศษ
+- [[Market Cycle]] - เข้าใจจังหวะ
+- [[Contrarian Investing]] - ผิดคนตอนไหน
+- [[Risk Management]] - First priority
+- [[Seth Klarman's Margin of Safety Framework]] - Deep value peer
+- [[Second-Level Thinking]] - Core mental model
 
 ---
 
+## 📚 References
+
+- *The Most Important Thing* (2011) by Howard Marks
+- *Mastering the Market Cycle* (2018) by Howard Marks
+- Oaktree Capital Memos (1990-2025)
+- *Unknown Market Wizards* (2020) by Jack Schwager
+
+---
+
+## 📊 Quick Reference Card
+
+### Key Metrics
+
+| Concept | Formula/Rule |
+|:---|:---|
+| **Risk** | Probability of Permanent Capital Loss |
+| **Cycle Position** | Where are we now? (not where will we be) |
+| **Required Return** | Asymmetric payoff > Downside |
+
+### Cycle Signals
+
+| Signal | Bullish | Bearish |
+|:---|:---|:---|
+| **Sentiment** | Fear, panic | Euphoria, complacency |
+| **Credit** | Tight, expensive | Loose, cheap |
+| **Valuations** | Below intrinsic | Above intrinsic |
+| **Media** | Negative headlines | "This time is different" |
+
 > 🔑 **สิ่งที่ Marks ใช้จริง:** เขาเขียน memos มา 35+ ปี และ Buffett กล่าวว่า "This is the first thing I read when I see it" — ไม่ใช่ทฤษฎี แต่เป็น framework ที่ prove แล้วจากการจัดการเงิน $100B+ ด้วยความสม่ำเสมอ
+
+---
+
+*Last updated: 2026-04-02*
