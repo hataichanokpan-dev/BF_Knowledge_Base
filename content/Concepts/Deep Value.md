@@ -923,6 +923,10 @@ If ANY Gate 0 criterion fails, the stock is rejected regardless of how attractiv
 
 ## Quick Reference Card
 
+> 📋 **Crystallized Version:** [[Deep-Value-Thesis]] - Core principles in one page
+
+---
+
 ### Key Formulas
 
 | Metric | Formula | Deep Value Threshold |
