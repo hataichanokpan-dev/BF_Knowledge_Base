@@ -4,7 +4,7 @@ note_type: thesis
 status: evergreen
 created: 2026-04-03
 updated: 2026-04-03
-version: "1.1"
+version: "2.0"
 tags:
   - thesis
   - deep-value
@@ -354,6 +354,101 @@ PHASE 3: ENTRY (Price)
 | ไทย | ⚠️ ไม่ชัดเจน | ต้องใช้ quality filter |
 | อินโดนีเซีย | ⚠️ ไม่ชัดเจน | Information risk สูง |
 | ไต้หวัน | ⚠️ ไม่ชัดเจน | Tech-heavy market |
+
+---
+
+## 🛡️ Risk Management
+
+### Value Trap Detection Protocol
+
+> **Deep Value มีความเสี่ยงสูงกว่า Dividend Play** เพราะไม่มี cash flow หนุนระหว่างรอ
+
+#### 🚫 Red Flags (Knockout Criteria)
+
+| Red Flag | Score | Trigger | Why It Matters |
+|----------|-------|---------|----------------|
+| **Business Failure** | 10 | กำไรขาดทุน 3 ปีติด | ธุรกิจอาจล้มเหลว |
+| **No Catalyst** | 9 | ไม่มี catalyst ที่ระบุได้ใน 2 ปี | ราคาอาจไม่มาบรรจบ IV |
+| **High Debt** | 8 | D/E > 2.0x หรือ Interest Coverage < 1.5x | ขาดสภาพคล่อง, default risk |
+| **Governance Red** | 9 | RPT > 20% หรือ Audit ไม่ผ่าน | Minority shareholders ถูกเอาเปรียบ |
+| **Sector Decline** | 8 | อุตสาหกรรมอยู่ใน structural decline | Asset value อาจลดลงเรื่อยๆ |
+| **Negative FCF** | 7 | FCF ติดลบ 3 ปีติด | ต้องขาย assets หรือ raise capital |
+
+#### ⚠️ Yellow Flags (Caution Criteria)
+
+| Yellow Flag | Score | Trigger | Action |
+|-------------|-------|---------|--------|
+| **Low Liquidity** | 4 | Free Float < 20% หรือ Volume < 1M/day | ยากขาย, position ต้องเล็ก |
+| **Convergence Risk** | 4 | Catalyst ไม่ชัดเจน | ต้องถือนาน, opportunity cost |
+| **Asset Quality** | 3 | NCAV มี inventory/receivables สูง | อาจ write-down |
+| **Management Track Record** | 3 | ไม่มีประวัติสร้าง value | Catalyst อาจไม่เกิด |
+
+#### 📊 DV-VTS Calculator (Deep Value Value Trap Score)
+
+```
+DV-VTS = Σ(Red Flag Scores) + Σ(Yellow Flag Scores)
+
+Decision Rule:
+DV-VTS ≥ 15  →  🚫 REJECT (high probability value trap)
+DV-VTS 8-14  →  ⚠️ CAUTION (deep dive required)
+DV-VTS < 8   →  ✅ PASS (proceed to position sizing)
+```
+
+#### 🔍 Value Trap vs Genuine Deep Value
+
+| Characteristic | Value Trap | Genuine Deep Value |
+|----------------|------------|-------------------|
+| **Earnings** | ขาดทุนต่อเนื่อง | กำไรลดแต่ยังบวก หรือกำลังฟื้น |
+| **Debt** | สูงและเพิ่มขึ้น | คงที่หรือลดลง |
+| **Asset Quality** | Inventory/AR สูง, ต้อง write-down | Cash + Real Estate สูง |
+| **Management** | ไม่มีแผน, สับสน | มี catalyst plan ชัดเจน |
+| **Sector** | Declining | Cyclical downturn หรือ temporarily out of favor |
+
+---
+
+### Position Sizing Framework
+
+> **Deep Value ต้องใช้ position เล็กกว่า Dividend Play** เพราะ illiquidity และ uncertainty สูงกว่า
+
+#### 📐 Base Position Tiers
+
+| Tier | Base | Criteria | Description |
+|------|------|----------|-------------|
+| **A** | 5% | P/BV < 0.3x + Catalyst confirmed + High liquidity | High conviction, clear catalyst |
+| **B** | 3% | P/BV 0.3-0.5x + Catalyst likely + Medium liquidity | Standard deep value |
+| **C** | 2% | P/BV 0.5-0.7x + Catalyst uncertain OR Low liquidity | Speculative, small position |
+
+#### 🔧 Adjustments
+
+| Factor | Adjustment | Why |
+|--------|------------|-----|
+| **Illiquidity** | -50% if Free Float < 20% | ยากขาย |
+| **No Catalyst** | -50% if no clear catalyst | Convergence risk |
+| **High MOS (>50%)** | +25% if Price < 0.5 × IV | Extra margin of safety |
+| **F-Score > 7** | +25% if Piotroski F-Score > 7 | Quality confirmation |
+
+#### 📐 Final Position Formula
+
+```
+Final Position = Base Tier × Adjustments × MOS Factor
+
+Example:
+- Tier B (3%)
+- Free Float 15% (-50%)
+- F-Score 8 (+25%)
+- MOS 60% (+25%)
+
+Final = 3% × 0.5 × 1.25 × 1.25 = 2.34%
+```
+
+#### ⚠️ Hard Limits
+
+| Rule | Limit | Why |
+|------|-------|-----|
+| **Max per Position** | 5% | Single stock risk |
+| **Max Deep Value Allocation** | 20% of Portfolio | Overall strategy risk |
+| **Min Cash Reserve** | 10% | Opportunity fund for better prices |
+| **Max Low Liquidity Positions** | 3 stocks | Liquidity risk management |
 
 ---
 
