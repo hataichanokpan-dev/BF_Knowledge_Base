@@ -2,8 +2,9 @@
 title: "Dividend Play - Crystallized Thesis"
 thesis_type: crystallized
 category: income-investing
-version: 1.0
+version: 2.0
 created: 2026-04-03
+updated: 2026-04-04
 tags:
   - thesis
   - dividend
@@ -214,6 +215,268 @@ Current Price = 12.00 THB → PASS (14% Premium)
 | 5-7% | 60-70% | 1.2-1.5x | Medium-High | **BUY** |
 | 5-7% | 70-80% | 1.0-1.2x | Medium | **WATCH** |
 | < 5% | > 80% | < 1.0x | Low | **PASS** |
+
+---
+
+## 🛡️ Risk Management (NEW in v2.0)
+
+### Value Trap Detection Protocol
+
+> **เป้าหมาย:** แยกแยะ "หุ้นถูกแท้" (Genuine Bargain) vs "กับดักหุ้นราคาถูก" (Value Trap)
+
+#### Red Flags Checklist (สัญญาณอันตราย)
+
+| # | Red Flag | คะแนน | คำอธิบาย |
+|---|----------|-------|----------|
+| 1 | **Payout Ratio > 90%** ต่อเนื่อง 2 ปี | 8 | จ่ายปันผลเกินกำลัง ไม่มีเงินลงทุนต่อ |
+| 2 | **FCF Cover < 1.0x** | 10 | กระแสเงินสดไม่พอจ่าย ต้องกู้หรือใช้เงินสำรอง |
+| 3 | **กำไรถดถอย 3 ปีติดต่อ** | 9 | Earnings Erosion = Capital Loss แน่นอน |
+| 4 | **หนี้เพิ่ม + กำไรลด** | 7 | ฐานะการเงินแย่ลง เงินสดไปจ่ายดอกเบี้ย |
+| 5 | **ประวัติลดปันผล** (Dividend Cut) | 8 | บริษัทเคยลด มีโอกาสลดซ้ำ |
+| 6 | **Management Turnover สูง** | 5 | CEO/CFO ลาออกพร้อมกัน = ปัญหาภายใน |
+| 7 | **Structural Decline** | 9 | อุตสาหกรรมถูก Disrupt (สื่อ, ค้าปลีกเก่า) |
+
+#### Yellow Flags Checklist (สัญญาณเตือน)
+
+| # | Yellow Flag | คะแนน | คำอธิบาย |
+|---|-------------|-------|----------|
+| 1 | **Payout Ratio 70-90%** | 4 | เริ่มตึงตัว ต้องดู CAPEX อนาคต |
+| 2 | **ROE ลดลงต่อเนื่อง** | 4 | ประสิทธิภาพลดลง |
+| 3 | **Working Capital ติดลบ** | 3 | ปัญหาสภาพคล่องระยะสั้น |
+
+#### Value Trap Score (VTS) Calculator
+
+```
+VTS = Σ(Red Flag Scores) + Σ(Yellow Flag Scores)
+
+Decision Rule:
+┌─────────────────────────────────────────────────────────────┐
+│  VTS ≥ 15  →  🚫 REJECT (หลีกเลี่ยงทันที)                    │
+│  VTS 8-14  →  ⚠️ CAUTION (ตรวจสอบเพิ่มเติม)                  │
+│  VTS < 8   →  ✅ PASS (ผ่านการตรวจสอบ)                       │
+└─────────────────────────────────────────────────────────────┘
+```
+
+#### ตัวอย่างการคำนวณ
+
+| Factor | หุ้น A (Value Trap) | หุ้น B (ปลอดภัย) |
+|--------|---------------------|-------------------|
+| Payout > 90% ต่อเนื่อง | ✅ 8 | ❌ 0 |
+| FCF Cover < 1.0x | ✅ 10 | ❌ 0 |
+| กำไรถดถอย 3 ปี | ✅ 9 | ❌ 0 |
+| หนี้เพิ่ม + กำไรลด | ✅ 7 | ❌ 0 |
+| Payout 70-90% | ✅ 4 | ✅ 4 |
+| **VTS รวม** | **38 → REJECT** | **4 → PASS** |
+
+#### Decision Tree
+
+```
+เริ่ม: พบหุ้น Yield > 6%
+        ↓
+    ┌───────────────────┐
+    │ FCF > Dividend?   │
+    └───────────────────┘
+     ↓ ไม่ใช่        ↓ ใช่
+  🚫 Value Trap    ┌───────────────────┐
+                  │ กำไรเติบโต/คงที่?  │
+                  └───────────────────┘
+                   ↓ ไม่ใช่      ↓ ใช่
+              ┌─────────┐    ┌─────────────┐
+              │Commodity│    │Payout < 80%?│
+              │วัฏจักร?  │    └─────────────┘
+              └─────────┘     ↓ ไม่ใช่    ↓ ใช่
+               ↓ ใช่   ↓ ไม่ใช่  ⚠️ Caution ✅ BUY
+             ⏳ รอ   🚫 Trap
+```
+
+#### ตัวอย่าง Value Trap ในตลาดไทย
+
+| หุ้น | ปี | สาเหตุ | บทเรียน |
+|-----|-----|--------|---------|
+| **BEC** (สื่อ) | 2014-2017 | P/E ต่ำ Yield สูง แต่กำไรลดจาก Digital Disruption | อุตสาหกรรมถูก Disrupt = Red Flag #7 |
+| **STA** (โภคภัณฑ์) | บางวัฏจักร | Yield สูงจากกำไรชั่วคราว พอราคายางลด กำไรหาย | Commodity = ต้องดูวัฏจักร |
+
+---
+
+### Position Sizing Framework
+
+#### Tier System
+
+| Tier | ขนาดพอร์ตสูงสุด | เกณฑ์ | ตัวอย่าง |
+|------|------------------|-------|----------|
+| **Tier A** | 8% | Yield > 6%, Payout < 60%, FCF > 1.5x, ROE > 12% | หุ้นปันผลเกรด A |
+| **Tier B** | 6% | Yield 5-6%, Payout 60-70%, FCF 1.2-1.5x | หุ้นปันผลเกรด B |
+| **Tier C** | 4% | Yield 4-5%, Payout 70-80%, FCF 1.0-1.2x | หุ้นปันผลเกรด C |
+| **Speculative** | 2% | มี Yellow Flags แต่ Yield สูงมาก | ต้อง Monitor ใกล้ชิด |
+
+#### Sector Concentration Limit
+
+| Rule | ขีดจำกัด | เหตุผล |
+|------|----------|--------|
+| **Sector Max** | 25% | กระจายความเสี่ยงอุตสาหกรรม |
+| **Single Stock Max** | 8% | ป้องกัน Concentration Risk |
+| **Top 3 Holdings Max** | 40% | ไม่ให้พอร์ตโฟลิโอลู่ไป 3 ตัว |
+
+#### Position Sizing Calculator
+
+```
+Position Size = Base Tier % × Conviction Multiplier × MOS Adjustment
+
+Where:
+- Base Tier % = 8% (A), 6% (B), 4% (C)
+- Conviction Multiplier:
+  * 1.0x = Standard
+  * 0.75x = มี Yellow Flags
+  * 0.5x = มี Red Flags < 8 คะแนน
+- MOS Adjustment:
+  * 1.2x = MOS > 30%
+  * 1.0x = MOS 15-30%
+  * 0.8x = MOS < 15%
+
+Example:
+หุ้น A: Tier A (8%), Conviction 1.0x, MOS 25%
+→ Position = 8% × 1.0 × 1.0 = 8%
+
+หุ้น B: Tier B (6%), Conviction 0.75x (Yellow Flag), MOS 35%
+→ Position = 6% × 0.75 × 1.2 = 5.4%
+```
+
+#### Portfolio Heat Map
+
+```
+Portfolio Risk Score = Σ(Position Size × VTS Adjustment)
+
+Where VTS Adjustment:
+- VTS < 8:  1.0x (ปกติ)
+- VTS 8-14: 1.5x (เพิ่มน้ำหนักความเสี่ยง)
+- VTS ≥ 15: ห้ามถือ
+
+Target: Portfolio Risk Score < 100%
+```
+
+---
+
+## 📤 Exit Strategy (NEW in v2.0)
+
+### Stop Loss Framework
+
+| สถานการณ์ | Stop Loss | Trigger |
+|-----------|-----------|---------|
+| **Thesis Break** | ทันที | Red Flag ใหม่ทำ VTS ≥ 15 |
+| **Dividend Cut** | ทันที | ลดปันผล > 25% |
+| **Technical Stop** | -15% จากต้นทุน | ราคาต่ำกว่าต้นทุน 15% |
+| **Time Stop** | รีวิวถ้า > 2 ปี | ถ้า Yield < 3% และไม่มี Capital Gain |
+
+### Take Profit Rules
+
+| สถานการณ์ | Take Profit | เหตุผล |
+|-----------|-------------|--------|
+| **Overvalued** | P/E > 20x | ขายส่วนหนึ่ง (50%) |
+| **Yield Compression** | Yield < 3% | ขายทั้งหมด หารอบใหม่ |
+| **Target Price** | ถึง IV + 20% | ขาย 50%, ถือ 50% |
+| **Sector Rotation** | SETHD Premium > 5% | ขายเพื่อ Rotate |
+
+### Post-XD Exit Decision
+
+```
+หลัง XD Date:
+┌─────────────────────────────────────────────────────────────┐
+│ 1 สัปดาห์หลัง XD:                                            │
+│ ├── ราคาฟื้นตัว > 80% ของปันผล → HOLD (ตลาดเชื่อมั่น)        │
+│ └── ราคาฟื้นตัว < 50% ของปันผล → พิจารณาขาย (ตลาดกังวล)     │
+│                                                             │
+│ 1 เดือนหลัง XD:                                             │
+│ ├── ราคากลับสู่ระดับ Pre-XD → HOLD                          │
+│ └── ราคาต่ำกว่า Pre-XD > 10% → ทบทวน Thesis               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Portfolio Construction Framework
+
+#### Sector Concentration Limits
+
+| กฎ | Limit | เหตุผล |
+|-----|-------|--------|
+| **Max per Sector** | 25% | ลด Sector-Specific Risk (เช่น นโยบ้า, นโยมเงิน, กฎข้อบังคับ) |
+| **Max per Sub-Sector** | 15% | ป้องกัน sector ใน sector (เช่น REITs ใน Property) |
+| **Min Sectors** | 3 | กระจายความเสี่ยง อย่างน้อย 3 กลุ่ม |
+| **Correlation Watch** | High pairs | หลีกเลี่ยง pairs ที่ correlate สูง |
+
+#### Correlation Matrix (High-Risk Pairs)
+| Sector 1 | Sector 2 | Correlation | Why |
+|----------|----------|-------------|-----|
+| **Property** | **REITs** | สูง (0.7-0.9) | ทั้งสองขึ้นอยู่กับปัจจัยเดียวกัน (อัตราดอกเบี้ย, ราคาอสินทรัพย์) |
+| **Bank** | **Finance** | สูง (0.6-0.8) | อัตราดอกเบี้ยและ NPLs เหมือนกัน |
+| **Energy** | **Petrochemical** | สูง (0.7-0.85) | ผู้ติดกับราคาน้ำมันและค่าการกลั่น |
+
+#### Diversification Strategy
+1. **ตั้ง Sector เดียวไม่เกิน 25%**
+2. **หลีกเลี่ยง High Correlation Pairs** (Property+REITs, Energy+Petro)
+3. **เลือกจากอย่างน้อย 3 กลุ่มอุตสาหกรรม** ที่ไม่ correlate กัน
+4. **ตัวอย่างการจัดพอร์ต:**
+   - Banking (25%) + Power (25%) + Telco (20%) + REITs (15%) + Retail (15%) = **100%**
+
+#### Portfolio Heatmap
+```
+ตัวอย่าง Portfolio ที่กระจายดี:
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│  ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
+│  ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
+│  ███████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░│
+│  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
+│  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
+│                                                             │
+│  ████████ Banking (25%)    ████████████ Power (25%)         │
+│  ████████ Telco (20%)      ████████████ REITs (15%)         │
+│  ████████ Retail (15%)                                     │
+│                                                             │
+│  ✓ กระจายดี: 5 sectors, correlation ต่ำ, ไม่เกิน limit  │
+└─────────────────────────────────────────────────────────────┘
+```
+
+#### Rebalancing Rules
+| Trigger | Action | เหตุผล |
+|---------|--------|--------|
+| **Sector > 25%** | Trim หรือ หยุดซื้อ sector นั้น | กลับสู่ target |
+| **Yield Drift** | โยห์ < 3% หรือ > 8% → ทบทวน | เปลี่ยนแปลงพื้นฐาน |
+| **Underweight < 6 months** | เพิ่มการซื้อ | รักษา allocation |
+
+### Macro Suitability Framework (Interest Rate Sensitivity)
+
+#### Rate Sensitivity by Sector
+
+| Sector | Rate Sensitivity | Duration Risk | Strategy |
+|--------|------------------|---------------|----------|
+| **REITs** | สูงมากมาก | สูง (Long Duration) | ดีมาตอนวันลดดอก ชนว่ากว่าจะเริ่หน้าที่มีกำไรลด จากการสนับอี (b) Banks |
+| **Power Plant** | สูง (ขึ้นอัตราดอกเบี้ย) | สูง | ถ้าคาด จะดี หุ้นชนว่ามีปันผลลด แต่ต้องดูความสมัครใจของ PPA |
+| **Telco** | กลางงาน | ปานกลาง | ถ้า rate คงที่ หุ้นดี ถ้า rate ลด อาจเริ่หน้าที่มีกำไรลดลงเรื่อย ๆ |
+| **Banks** | ต่ำ (Rate Cuts) | ปานกลาง | ดีในตอนวันลดดอก แต่ต้องระวัง NPL |
+
+#### Thai Market Rate Factors
+
+| Factor | Impact | Consideration |
+|--------|--------|---------------|
+| **WHT 10%** | Real yield loss | Net Yield = Gross Yield × 0.90 |
+| **Rate Cut Expectations** | ดูทิศาวิตุุธฯ | Policy rate drives sentiment |
+| **SET Index Correlation** | Market beta matters | Dividend stocks = defensive |
+
+#### Rate Cycle Decision Framework
+
+| Rate Environment | Action | Focus |
+|------------------|--------|-------|
+| **Rates Rising** | หลีกเลี่ยง/ถ่วง | Short-duration bonds, floating rate loans |
+| **Rates Stable** | เทนะะคำนวณ yield | High-dividend stocks attractive |
+| **Rates Falling** | ซื้อะขยา/โอน | REITs, Utilities, Long-duration bonds |
+
+#### Sector-Specific Rate Strategy
+
+| Sector | Rate Rising | Rate Stable | Rate Falling |
+|--------|-------------|-------------|--------------|
+| **REITs** | ❌ หลีกเลี่ยง | ⚠️ ระมัดระ | ✅ ดึงดึง/ซื้อ |
+| **Banks** | ⚠️ ระมัดระ | ✅ ดีในตอนวันลดดอก | ❌ กดดอกเบี้ยลด แต่ NPL risk |
+| **Power** | ⚠️ ระมัดระ | ✅ ค่อนขว้าง | ✅ ดึงดึง/ซื้อ |
+| **Telco** | ⚠️ ระมัดระ | ✅ ดีในตอนวันลดดอก | ⚠️ CAPEX อาจเพิ่ม |
 
 ---
 
@@ -555,6 +818,64 @@ Scenario: 5 THB Dividend
 
 ---
 
+## 💰 Thai Tax Optimization (NEW in v2.0)
+
+### Net-of-Tax Yield Framework
+
+#### คำนวณ Yield ที่แท้จริง
+
+```
+Net Yield = Gross Yield × (1 - WHT Rate)
+
+Thai Dividend Tax:
+┌─────────────────────────────────────────────────────────────┐
+│ ประเภทนักลงทุน             │ อัตรา WHT │ Net Yield Effect              │
+├─────────────────────────────────────────────────────────────┤
+│ บุคคลทั่วไป                 │ 0%       | เท่ากับ Gross Yield             │
+│ นิติบุคคลธรรม (ใหม่)           │ 0%       | เท่ากับ Gross Yield             │
+│ บุคคลทั่วไป (เดิม)           │ 10%      │ Gross Yield × 0.90              │
+│ นิติบุคคลธรรม (เดิม)           │ 10%      │ Gross Yield × 0.90              │
+│ ห้าวหุ้นใหม่ (ไม่เกี่ยวข้อง)   │ 10%      │ Gross Yield × 0.90              │
+│ ต่างชาติ                    | 10-15%   │ Gross Yield × 0.85-0.90        │
+└─────────────────────────────────────────────────────────────┘
+```
+
+#### Yield Break-Even Analysis
+
+```
+เงื่อนไข: ต้องการ Net Return จากปันผลเท่ากับ Capital Loss จาก XD
+
+ตัวอย่าง: หุ้น Yield 6%, ราคา 100 บาท
+
+Gross Dividend = 6 บาท
+WHT (10%) = 0.60 บาท
+Net Dividend = 5.40 บาท
+
+XD Drop (ปกติ) = 6 บาท (ราคาตกเป็น 94 บาท)
+
+Break-Even Recovery = 6 บาท / 94 บาท = 6.38%
+
+ต้องรอราคาฟื้น 6.38% เพื่อให้ Net Dividend = Capital Loss
+```
+
+#### Tax Credit Optimization
+
+| สถานการณ์ | กลยุทธ์ | หมายเหตุ |
+|----------|--------|----------|
+| **NITI (นักลงทุนใหม่)** | ใช้ Tax Credit ได้เต็ม | ปันผลที่ได้รับเต็มจำนวน |
+| **NITI (นักลงทุนเดิม)** | เสีย WHT 10% | พิจารณาใช้ Tax Credit จากภาษีเงินได้ |
+| **ต่างชาติ** | เสีย WHT 10-15% | ต้องดู Double Tax Treaty |
+
+#### Tax-Efficient Yield Target
+
+| ประเภทนักลงทุน | Gross Yield Target | Net Yield Target |
+|-----------------|--------------------|--------------------|
+| **NITI (ใหม่)** | 5%+ | 5%+ (เท่าเดิม) |
+| **NITI (เดิม)** | 5.5%+ | 5%+ (หลังหัก WHT) |
+| **ต่างชาติ** | 6%+ | 5.1%+ (หลัง WHT 15%) |
+
+---
+
 ## 📚 Related
 
 - [[Dividend Play]] - Original concept note
@@ -574,4 +895,4 @@ Scenario: 5 THB Dividend
 
 ---
 
-*Thesis Version: 1.1 | Last Updated: 2026-04-03*
+*Thesis Version: 2.0 | Last Updated: 2026-04-04*
