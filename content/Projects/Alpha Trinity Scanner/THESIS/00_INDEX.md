@@ -16,8 +16,8 @@ updated: 2026-04-06
 
 | Document | Language | Description |
 |----------|----------|-------------|
-| [[Thesis v2 - Professional]] | English | PhD-level professional dissertation |
-| [[Thesis v2 - Thai]] | Thai | Thai version with professional formatting |
+| [[Thesis v3 - Professional]] | English | Clean professional dissertation |
+| [[Thesis v3 - Thai]] | Thai | Clean Thai version |
 
 ### Archive (Superseded)
 
