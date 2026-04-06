@@ -1,11 +1,17 @@
 ---
-project: VQM Model
-tags: [thesis, research, multi-factor, vqm, detailed-plan]
+title: "VQM Model — Detailed Thesis Research Plan"
+aliases: ["VQM Detailed Plan", "แผนวิจัย VQM รายละเอียด", "VQM Thesis Plan v2.1"]
+tags: [📁/projects, 🏷️/thesis, 🏷️/vqm-model, 🏷️/research-methodology, status/planning]
 created: 2026-04-06
-updated: 2026-04-06
-status: planning
+modified: 2026-04-06
 type: detailed-research-plan
-version: 2.0
+status: seed
+version: 2.1
+links:
+  - "[[VQM Model - Thesis Research Plan]]"
+  - "[[VQM Model - Literature Research Compilation]]"
+  - "[[VQM Model - ภาพรวมโปรเจคภาษาไทย]]"
+  - "[[Further Research Checklist]]"
 ---
 
 # VQM Model — Detailed Thesis Research Plan v2.1
@@ -693,6 +699,23 @@ vqm-model/
 *Document Version: 2.1*
 *Last Updated: 2026-04-06*
 *Next Review: After Phase 1 completion*
+
+---
+
+## 🔗 Linked References
+
+- [[VQM Model - Thesis Research Plan]] — แผนวิจัยหลัก
+- [[VQM Model - Literature Research Compilation]] — รวบรวมวรรณกรรม
+- [[VQM Model - ภาพรวมโปรเจคภาษาไทย]] — ภาพรวมโปรเจคภาษาไทย
+- [[Further Research Checklist]] — รายการตรวจสอบการวิจัยเพิ่มเติม
+
+---
+
+## 📚 แหล่งข้อมูล
+
+- Fama, E. F., & French (2015). A five-factor asset pricing model.
+- Jegadeesh, N., & Titman, S. (1993). Returns to buying winners and selling losers.
+- Asness, C. S., et al. (2013). Value and momentum everywhere.
 
 ---
 

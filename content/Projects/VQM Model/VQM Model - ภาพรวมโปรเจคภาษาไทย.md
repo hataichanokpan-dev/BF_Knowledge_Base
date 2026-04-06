@@ -1,9 +1,23 @@
+---
+title: "VQM Model — โมเดลคัดเลือกหุ้น 3 ปัจจัยสำหรับตลาดหลักทรัพย์ไทย"
+aliases: ["VQM ภาพรวมภาษาไทย", "โมเดล VQM ฉบับย่อไทย", "VQM Thai Overview"]
+tags: [📁/projects, 🏷️/vqm-model, 🏷️/explanation, 🏷️/thai, status/planning]
+created: 2026-04-06
+modified: 2026-04-06
+type: note
+status: evergreen
+links:
+  - "[[VQM Model - Thesis Research Plan]]"
+  - "[[VQM Model - Detailed Thesis Research Plan]]"
+  - "[[VQM Model - Literature Research Compilation]]"
+  - "[[Complete Reference List]]"
+---
+
 # VQM Model — โมเดลคัดเลือกหุ้น 3 ปัจจัยสำหรับตลาดหลักทรัพย์ไทย
 
-> **เอกสารฉบับนี้อธิบายโปรเจควิจัยเป็นภาษาไทยที่เข้าใจง่าย**
+> [!ABSTRACT] เอกสารฉบับนี้อธิบายโปรเจควิจัยเป็นภาษาไทยที่เข้าใจง่าย
 >
-> **วันที่:** 6 เมษายน 2026
-> **สถานะ:** วางแผนรายละเอียด
+> **วันที่:** 6 เมษายน 2026 | **สถานะ:** วางแผนรายละเอียด
 
 ---
 
@@ -380,3 +394,12 @@
 
 *เอกสาร版本 1.0*
 *วันที่: 6 เมษายน 2026*
+
+---
+
+## 🔗 Linked References
+
+- [[VQM Model - Thesis Research Plan]] — แผนวิจัยหลัก
+- [[VQM Model - Detailed Thesis Research Plan]] — แผนวิจัยรายละเอียด
+- [[VQM Model - Literature Research Compilation]] — รวบรวมวรรณกรรม
+- [[Complete Reference List]] — รายการอ้างอิงครบถ้วน

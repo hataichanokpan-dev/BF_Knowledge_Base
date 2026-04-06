@@ -1,9 +1,16 @@
 ---
-project: VQM Model
-tags: [thesis, research, multi-factor, vqm, stock-selection]
+title: "VQM Model — Thesis Research Plan"
+aliases: ["VQM Research Plan", "แผนวิจัย VQM", "Integrated Value-Quality-Momentum Model"]
+tags: [📁/projects, 🏷️/thesis, 🏷️/vqm-model, 🏷️/multi-factor-investing, status/planning]
 created: 2026-04-06
-status: planning
+modified: 2026-04-06
 type: project-plan
+status: seed
+links:
+  - "[[VQM Model - ภาพรวมโปรเจคภาษาไทย]]"
+  - "[[VQM Model - Literature Research Compilation]]"
+  - "[[VQM Model - Detailed Thesis Research Plan]]"
+  - "[[Complete Reference List]]"
 ---
 
 # VQM Model — Thesis Research Plan
@@ -300,6 +307,26 @@ Composite_Score(i,t) = 0.45×Value + 0.35×Quality + 0.20×Momentum
 ---
 
 ## References
+
+- Fama, E. F., & French, K. R. (1992). The cross-section of expected stock returns.
+- Jegadeesh, N., & Titman, S. (1993). Returns to buying winners and selling losers.
+- Novy-Marx, R. (2013). The other side of value: The gross profitability premium.
+- Asness, C. S., et al. (2015). Factor timing: Is it different?
+
+---
+
+---
+
+## 🔗 Linked References
+
+- [[VQM Model - ภาพรวมโปรเจคภาษาไทย]] — ภาพรวมโปรเจคภาษาไทย
+- [[VQM Model - Literature Research Compilation]] — รวบรวมวรรณกรรม
+- [[VQM Model - Detailed Thesis Research Plan]] — แผนวิจัยรายละเอียด
+- [[Complete Reference List]] — รายการอ้างอิงครบถ้วน
+
+---
+
+## 📚 แหล่งข้อมูล
 
 - Fama, E. F., & French, K. R. (1992). The cross-section of expected stock returns.
 - Jegadeesh, N., & Titman, S. (1993). Returns to buying winners and selling losers.

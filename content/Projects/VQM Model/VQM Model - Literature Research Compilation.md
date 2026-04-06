@@ -1,9 +1,19 @@
 ---
-project: VQM Model
-tags: [thesis, literature-review, vqm, references]
+title: "VQM Model — Literature Research Compilation"
+aliases: ["VQM Literature Review", "ทบทวนวรรณกรรม VQM", "VQM Research Papers"]
+tags: [📁/projects, 🏷️/thesis, 🏷️/literature-review, 🏷️/vqm-model, status/research]
 created: 2026-04-06
-status: research
+modified: 2026-04-06
 type: literature-compilation
+status: sprout
+links:
+  - "[[VQM Model - Thesis Research Plan]]"
+  - "[[Complete Reference List]]"
+  - "[[Value Factor Papers]]"
+  - "[[Quality Factor Papers]]"
+  - "[[Momentum Factor Papers]]"
+  - "[[Multi-Factor Models]]"
+  - "[[Market Regimes Research]]"
 ---
 
 # VQM Model — Literature Research Compilation
@@ -566,6 +576,27 @@ Kasetsart University Researchers. (2016). Market microstructure of the Stock Exc
 *Last updated: 2026-04-06*
 *Status: 🚧 In Progress — 33/50 references identified (66%)*
 *✅ Thailand Gap CLOSED — 10/10 papers found*
+
+---
+
+## 🔗 Linked References
+
+- [[VQM Model - Thesis Research Plan]] — แผนวิจัยหลัก
+- [[Complete Reference List]] — รายการอ้างอิงครบถ้วน
+- [[Value Factor Papers]] — เอกสารปัจจัยมูลค่า
+- [[Quality Factor Papers]] — เอกสารปัจจัยคุณภาพ
+- [[Momentum Factor Papers]] — เอกสารปัจจัยโมเมนตัม
+- [[Multi-Factor Models]] — โมเดลหลายปัจจัย
+- [[Market Regimes Research]] — กลุ่มตลาดและความเสี่ยง
+
+---
+
+## 📚 แหล่งข้อมูล
+
+- Google Scholar
+- SSRN
+- ScienceDirect
+- SET Research
 
 
 ## ✅ Thailand Literature Research — COMPLETED

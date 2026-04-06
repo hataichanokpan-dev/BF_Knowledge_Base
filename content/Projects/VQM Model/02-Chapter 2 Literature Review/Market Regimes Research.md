@@ -1,147 +1,177 @@
-# Market Regimes & Risk Management — Literature Review
+---
+title: "กลุ่มตลาดและการจัดการความเสี่ยง — ทบทวนวรรณกรรม"
+aliases: ["Market Regimes Research", "กลุ่มตลาด", "VQM Regime Analysis"]
+tags: [📁/literature-review, 🏷️/market-regimes, 🏷️/vqm-model, 🏷️/risk-management]
+created: 2026-04-06
+modified: 2026-04-06
+type: literature-compilation
+status: seed
+links:
+  - "[[VQM Model - Literature Research Compilation]]"
+  - "[[Complete Reference List]]"
+  - "[[Momentum Factor Papers]]"
+  - "[[Multi-Factor Models]]"
+---
 
-> **Chapter:** 2.5 Market Regimes
-> **Thesis:** VQM Model — Integrated Value-Quality-Momentum Model
-> **Last Updated:** 2026-04-06
+# กลุ่มตลาดและการจัดการความเสี่ยง — ทบทวนวรรณกรรม
+
+> [!NOTE] **บท:** 2.5 กลุ่มตลาด (Market Regimes)
+> **วิทยานิพนธ์:** โมเดล VQM — โมเดลผสานมูลค่า-คุณภาพ-โมเมนตัม
+> **อัปเดตล่าสุด:** 2026-04-06
 
 ---
 
-## Core Papers
+## เอกสารหลัก
 
-### 1. Momentum Crashes & Regimes
+### 1. การดิ่งของโมเมนตัมและกลุ่มตลาด
 
 **Daniel, K., & Moskowitz, T. J. (2016). Momentum Crashes.**
 *Journal of Financial Economics, 122*(2), 221-247.
 
-**Key Findings:**
-- Momentum crashes during market rebounds (after bear markets)
-- Crashes related to market regime changes
-- Time-varying momentum premium
+**สรุปผลการวิจัย:**
+- โมเมนตัมดิ่งในช่วงฟื้นตัวของตลาด (หลังตลาดหมี)
+- การดิ่งเชื่อมโยงกับการเปลี่ยนแปลง regime ตลาด
+- Momentum Premium แปรผันตามเวลา
 
-**Relevance to VQM:**
-- Risk management for momentum component
-- Quality factor may mitigate crash risk
-- Regime-aware rebalancing considerations
-
----
-
-### 2. Volatility Regimes
-
-**[TBD — Volatility Regimes Research]**
-
-**Key Concepts:**
-- High vs. low volatility periods
-- Factor performance varies across regimes
-- Risk management implications
-
-**Relevance to VQM:**
-- Adjust factor weights by regime?
-- Stop-loss during high volatility?
-- Sector rotation considerations
+**ความเกี่ยวข้องกับ VQM:**
+- การจัดการความเสี่ยงสำหรับส่วนประกอบโมเมนตัม
+- ปัจจัยคุณภาพอาจลดความเสี่ยงการดิ่ง
+- พิจารณาการปรับสมดุลตาม regime
 
 ---
 
-### 3. Business Cycle & Factors
+### 2. กลุ่มความแปรปรวน
 
-**[TBD — Business Cycle Factor Research]**
+**[TBD — งานวิจัยกลุ่มความแปรปรวน]**
 
-**Key Concepts:**
-- Value performs better in recoveries
-- Quality defensive in recessions
-- Momentum regime-dependent
+**แนวคิดหลัก:**
+- ช่วงความแปรปรวนสูง vs ต่ำ
+- ผลงานปัจจัยแตกต่างกันในแต่ละ regime
+- ผลกระทบต่อการจัดการความเสี่ยง
 
-**Relevance to VQM:**
-- Regime-based factor allocation?
-- Static vs. dynamic weighting
+**ความเกี่ยวข้องกับ VQM:**
+- ปรับน้ำหนักปัจจัยตาม regime?
+- Stop-loss ระหว่างความแปรปรวนสูง?
+- พิจารณาการหมุนเวียนภาคส่วน
 
 ---
 
-## VQM Model Regime Analysis Framework
+### 3. วงจรธุรกิจและปัจจัย
 
-### Regime Classification
+**[TBD — งานวิจัยปัจจัยวงจรธุรกิจ]**
 
-| Regime | Definition | Expected VQM Performance |
-|--------|------------|-------------------------|
-| **Bull Market** | SET Index > MA(200), rising | Value & Momentum strong |
-| **Bear Market** | SET Index < MA(200), falling | Quality defensive |
-| **High Volatility** | VIX > threshold | Quality outperforms |
-| **Low Volatility** | VIX < threshold | Momentum strong |
+**แนวคิดหลัก:**
+- มูลค่าทำผลงานดีขึ้นในช่วงฟื้นตัว
+- คุณภาพป้องกันในช่วงถดถอย
+- โมเมนตัมขึ้นกับ regime
 
-### Factor Performance by Regime (Literature-Based)
+**ความเกี่ยวข้องกับ VQM:**
+- การจัดสรรปัจจัยตาม regime?
+- น้ำหนักคงที่ vs แบบไดนามิก
 
-| Factor | Bull | Bear | High Vol | Low Vol |
+---
+
+## กรอบการวิเคราะห์กลุ่มตลาด VQM
+
+### การจัดประเภท Regime
+
+| Regime | นิยาม | ผลงาน VQM ที่คาดหวัง |
+|--------|--------|-------------------------|
+| **ตลาดขาขึ้น** | SET Index > MA(200), เพิ่มขึ้น | มูลค่า & โมเมนตัมแข็ง |
+| **ตลาดขาลง** | SET Index < MA(200), ลดลง | คุณภาพป้องกัน |
+| **ความแปรปรวนสูง** | VIX > เกณฑ์ | คุณภาพทำผลงานดีกว่า |
+| **ความแปรปรวนต่ำ** | VIX < เกณฑ์ | โมเมนตัมแข็ง |
+
+### ผลงานปัจจัยตาม Regime (อิงวรรณกรรม)
+
+| ปัจจัย | ขาขึ้น | ขาลง | ความแปรปรวนสูง | ความแปรปรวนต่ำ |
 |--------|------|------|----------|---------|
-| Value | ++ | - | - | + |
-| Quality | + | ++ | ++ | + |
-| Momentum | ++ | -- | - | ++ |
+| มูลค่า | ++ | - | - | + |
+| คุณภาพ | + | ++ | ++ | + |
+| โมเมนตัม | ++ | -- | - | ++ |
 
-**Legend:** ++ strong outperform, + mild outperform, - underperform, -- crash risk
-
----
-
-## Risk Management Considerations
-
-### 1. Maximum Drawdown Control
-
-**Approaches:**
-- Stop-loss on individual positions (e.g., -20%)
-- Portfolio-level drawdown limits (e.g., -15% from peak)
-- Reduce momentum exposure in high volatility
-
-### 2. Position Sizing
-
-**Constraints:**
-- Max 5% per stock
-- Max 10% per sector
-- Equal-weight or score-weighted
-
-### 3. Rebalancing Strategy
-
-**Options:**
-- **Quarterly** (VQM baseline) — balances costs and signal decay
-- **Monthly** — better momentum signals, higher costs
-- **Regime-triggered** — rebalance on regime change
+**คำอธิบาย:** ++ ทำได้ดีกว่ามาก, + ทำได้ดีกว่าเล็กน้อย, - ทำผลงานได้ไม่ดี, -- ความเสี่ยงดิ่ง
 
 ---
 
-## Thailand Market Regimes (2019-2024)
+## พิจารณาการจัดการความเสี่ยง
 
-### Period Classification
+### 1. การควบคุม Drawdown สูงสุด
 
-| Period | Regime | SET Performance | Notes |
-|--------|--------|-----------------|-------|
-| 2019 | Bull + Volatile | +7% | Trade war tensions |
-| 2020 | Bear → Bull | -13% → +28% | COVID crash, rebound |
-| 2021 | Bull | +15% | Recovery |
-| 2022 | Sideways/Bear | -10% | Fed rate hikes |
-| 2023 | Recovery | +18% | China reopening |
-| 2024 (YTD) | Bull | +8% | Easing expectations |
+**แนวทาง:**
+- Stop-loss ต่อตำแหน่ง (เช่น -20%)
+- ขีดจำกัด drawdown ระดับพอร์ต (เช่น -15% จากจุดสูงสุด)
+- ลดการเปิดรับโมเมนตัมในความแปรปรวนสูง
 
-**Relevance to VQM:**
-- Backtest covers multiple regimes
-- Test robustness across conditions
+### 2. การกำหนดขนาดตำแหน่ง
 
----
+**ข้อจำกัด:**
+- สูงสุด 5% ต่อหุ้น
+- สูงสุด 10% ต่อภาค
+- น้ำหนักเท่ากันหรือถ่วงตามคะแนน
 
-## Research Questions
+### 3. กลยุทธ์การปรับสมดุล
 
-1. How does VQM perform in bull vs. bear markets?
-2. Does quality protect during momentum crashes?
-3. Optimal rebalancing frequency by regime?
-4. Should factor weights be dynamic?
+**ตัวเลือก:**
+- **รายไตรมาส (VQM baseline)** — สมดุลระหว่างต้นทุนและการลดสัญญาณ
+- **รายเดือน** — สัญญาณโมเมนตัมดีกว่า, ต้นทุนสูงกว่า
+- **ตาม Regime** — ปรับสมดุลเมื่อ regime เปลี่ยน
 
 ---
 
-## References (APA Format)
+## กลุ่มตลาดไทย (2019-2024)
+
+### การจัดประเภทช่วงเวลา
+
+| ช่วง | Regime | ผลงาน SET | หมายเหตุ |
+|--------|--------|-------------|----------|
+| 2019 | ขาขึ้น + ผันผวน | +7% | ความตึงเครียงการค้า |
+| 2020 | ขาลง → ขาขึ้น | -13% → +28% | ดิ่ง COVID, ฟื้นตัว |
+| 2021 | ขาขึ้น | +15% | การฟื้นตัว |
+| 2022 | ไปด้าน/ขาลง | -10% | Fed ขึ้นดอกเบี้ย |
+| 2023 | การฟื้นตัว | +18% | จีนเปิดประเทศ |
+| 2024 (YTD) | ขาขึ้น | +8% | คาดการณ์ผ่อนคลาย |
+
+**ความเกี่ยวข้องกับ VQM:**
+- Backtest ครอบหลาย regime
+- ทดสอบความแข็งแกร่งข้ามเงื่อนไข
+
+---
+
+## คำถามวิจัย
+
+1. VQM ทำผลงานอย่างไรในตลาดขาขึ้น vs ขาลง?
+2. คุณภาพปกป้องระหว่างโมเมนตัมดิ่งหรือไม่?
+3. ความถี่ในการปรับสมดุลที่เหมาะสมตาม regime?
+4. น้ำหนักปัจจัยควรเป็นแบบไดนามิกหรือไม่?
+
+---
+
+## อ้างอิง (รูปแบบ APA)
 
 ```
-Daniel, K., & Moskowitz, T. J. (2016). Momentum crashes. Journal of 
+Daniel, K., & Moskowitz, T. J. (2016). Momentum crashes. Journal of
 Financial Economics, 122(2), 221-247.
 
-[Additional references TBD]
+[อ้างอิงเพิ่มเติม TBD]
 ```
 
 ---
 
-*Document created: 2026-04-06*
-*Status: Literature Review — Market Regimes Section*
+*สร้างเอกสาร: 2026-04-06*
+*สถานะ: ทบทวนวรรณกรรม — ส่วนกลุ่มตลาด*
+
+---
+
+## 🔗 Linked References
+
+- [[VQM Model - Literature Research Compilation]] — รวบรวมวรรณกรรม
+- [[Complete Reference List]] — รายการอ้างอิงครบถ้วน
+- [[Momentum Factor Papers]] — เอกสารปัจจัยโมเมนตัม
+- [[Multi-Factor Models]] — โมเดลหลายปัจจัย
+
+---
+
+## 📚 แหล่งข้อมูล
+
+- Daniel, K., & Moskowitz, T. J. (2016). Momentum crashes.

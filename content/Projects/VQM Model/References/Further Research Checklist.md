@@ -1,196 +1,210 @@
-# VQM Model — Further Research Checklist
+---
+title: "รายการตรวจสอบการวิจัยเพิ่มเติม VQM"
+aliases: ["Further Research Checklist", "VQM Research Checklist", "รายการตรวจสอบ VQM"]
+tags: [📁/references, 🏷️/research-checklist, 🏷️/vqm-model, status/active]
+created: 2026-04-06
+modified: 2026-04-06
+type: reference
+status: sprout
+links:
+  - "[[VQM Model - Thesis Research Plan]]"
+  - "[[VQM Model - Literature Research Compilation]]"
+  - "[[Complete Reference List]]"
+---
 
-> **Purpose:** Track research progress and identify gaps
-> **Thesis:** VQM Model — Integrated Value-Quality-Momentum Model
-> **Last Updated:** 2026-04-06
+# รายการตรวจสอบการวิจัยเพิ่มเติม VQM
+
+> [!ABSTRACT] วัตถุประสงค์: ติดตามความคืบหน้าการวิจัยและระบุช่องว่าง
+> **วิทยานิพนธ์:** โมเดล VQM — โมเดลผสานมูลค่า-คุณภาพ-โมเมนตัม
+> **อัปเดตล่าสุด:** 2026-04-06
 
 ---
 
-## Part 1: Thailand-Specific Research (Critical Gap)
+## ส่วนที่ 1: งานวิจัยเฉพาะประเทศไทย (ช่องว่างสำคัญ)
 
-### Search Keywords
+### คำค้นหา
 
 ```
-1. "Fama-French model Thailand SET"
-2. "Momentum strategy Thai stock market"
-3. "Value premium Thailand emerging market"
-4. "Quality factor ROIC Thailand"
-5. "Multi-factor portfolio Thai stocks"
-6. "Factor investing SET Index"
-7. "Thai stock market anomalies"
-8. "ROIC WACC Thailand companies"
+1. "โมเดล Fama-French ตลาดหุ้นไทย SET"
+2. "กลยุทธ์โมเมนตัม ตลาดหุ้นไทย"
+3. "Value Premium ไทย ตลาดเกิดใหม่"
+4. "ปัจจัยคุณภาพ ROIC ไทย"
+5. "พอร์ตหลายปัจจัย หุ้นไทย"
+6. "การลงทุนตามปัจจัย ดัชนี SET"
+7. "ความผิดปกติ ตลาดหุ้นไทย"
+8. "ROIC WACC บริษัท ไทย"
 ```
 
-### Sources to Search
+### แหล่งที่จะค้นหา
 
-| Source | URL | Focus Areas | Status |
+| แหล่ง | URL | ด้านที่เน้น | สถานะ |
 |--------|-----|-------------|--------|
-| **Google Scholar** | scholar.google.com | Academic papers on Thai market | 🔍 To Search |
-| **SSRN** | ssrn.com | Working papers, finance | 🔍 To Search |
-| **SET Research** | set.or.th/research | Thai market publications | 🔍 To Search |
-| **Thai SEC** | sec.or.th | Regulatory research | 🔍 To Search |
-| **ProQuest** | proquest.com | Thai theses/dissertations | 🔍 To Search |
-| **ScienceDirect** | sciencedirect.com | Academic journals | 🔍 To Search |
-| **Thai Universities** | Chula, Thammasat | Local research | 🔍 To Search |
+| **Google Scholar** | scholar.google.com | เอกสารวิชาการตลาดไทย | 🔍 ต้องค้น |
+| **SSRN** | ssrn.com | เอกสาร working, การเงิน | 🔍 ต้องค้น |
+| **SET Research** | set.or.th/research | สิ่งพิมพ์ตลาดไทย | 🔍 ต้องค้น |
+| **Thai SEC** | sec.or.th | งานวิจัยกำกับดูแล | 🔍 ต้องค้น |
+| **ProQuest** | proquest.com | วิทยานิพนธ์/ดุษฎีนิพนธ์ไทย | 🔍 ต้องค้น |
+| **ScienceDirect** | sciencedirect.com | วารสารวิชาการ | 🔍 ต้องค้น |
+| **มหาวิทยาลัยไทย** | จุฬา, ธรรมศาสตร์ | งานวิจัยท้องถิ่น | 🔍 ต้องค้น |
 
 ---
 
-## Part 2: Data Availability Assessment
+## ส่วนที่ 2: การประเมินความพร้อมข้อมูล
 
-### Required Data for VQM Factors
+### ข้อมูลที่ต้องการสำหรับปัจจัย VQM
 
-| Data Item | Source | Availability | Status |
+| รายการข้อมูล | แหล่งที่มา | ความพร้อม | สถานะ |
 |-----------|--------|--------------|--------|
-| **Price Data** | SET, Bloomberg | ✅ Available | ✅ Confirmed |
-| **Financial Statements** | SET, Bloomberg | ✅ Available | ✅ Confirmed |
-| **FCF** | Calculated | ✅ Available | ✅ Confirmed |
-| **ROIC** | Calculated | ✅ Available | ✅ Confirmed |
-| **WACC** | Calculated | ✅ Available | ✅ Confirmed |
-| **Analyst Estimates** | Bloomberg, I/B/E/S | ❓ Limited | 🔍 To Check |
-| **Sector Classification** | SET | ✅ Available | ✅ Confirmed |
-| **Historical Data (2019+)** | SET | ✅ Available | ✅ Confirmed |
+| **ข้อมูลราคา** | SET, Bloomberg | ✅ พร้อม | ✅ ยืนยันแล้ว |
+| **งบการเงิน** | SET, Bloomberg | ✅ พร้อม | ✅ ยืนยันแล้ว |
+| **FCF** | คำนวณ | ✅ พร้อม | ✅ ยืนยันแล้ว |
+| **ROIC** | คำนวณ | ✅ พร้อม | ✅ ยืนยันแล้ว |
+| **WACC** | คำนวณ | ✅ พร้อม | ✅ ยืนยันแล้ว |
+| **ประมาณการนักวิเคราะห์** | Bloomberg, I/B/E/S | ❓ จำกัด | 🔍 ต้องตรวจสอบ |
+| **จัดกลุ่มภาค** | SET | ✅ พร้อม | ✅ ยืนยันแล้ว |
+| **ข้อมูลในอดีต (2019+)** | SET | ✅ พร้อม | ✅ ยืนยันแล้ว |
 
 ---
 
-## Part 3: Reference Count Progress
+## ส่วนที่ 3: ความคืบหน้าการนับอ้างอิง
 
-### Target: 50+ References
+### เป้าหมาย: 50+ อ้างอิง
 
-| Category | Target | Current | Gap |
+| หมวด | เป้าหมาย | ปัจจุบัน | ช่องว่าง |
 |----------|--------|---------|-----|
-| **Value** | 10 | 8 | 2 |
-| **Quality** | 8 | 6 | 2 |
-| **Momentum** | 10 | 8 | 2 |
-| **Multi-Factor** | 8 | 6 | 2 |
-| **Market Regimes** | 5 | 2 | 3 |
-| **Thailand-Specific** | 10 | 0 | **10** |
-| **Methodology** | 5 | 4 | 1 |
-| **Total** | **56** | **34** | **22** |
+| **มูลค่า** | 10 | 8 | 2 |
+| **คุณภาพ** | 8 | 6 | 2 |
+| **โมเมนตัม** | 10 | 8 | 2 |
+| **หลายปัจจัย** | 8 | 6 | 2 |
+| **กลุ่มตลาด** | 5 | 2 | 3 |
+| **เฉพาะไทย** | 10 | 0 | **10** |
+| **ระเบียบวิธี** | 5 | 4 | 1 |
+| **รวม** | **56** | **34** | **22** |
 
 ---
 
-## Part 4: Priority Papers to Acquire
+## ส่วนที่ 4: เอกสารเป้าหมายระดับสูง
 
-### Must Read (Core)
+### ต้องอ่าน (หลัก)
 
-- [ ] Fama & French (1992, 1993, 2015) — FF models
-- [ ] Jegadeesh & Titman (1993, 2001) — Momentum
+- [ ] Fama & French (1992, 1993, 2015) — โมเดล FF
+- [ ] Jegadeesh & Titman (1993, 2001) — โมเมนตัม
 - [ ] Asness et al. (2013) — Value & Momentum Everywhere
 - [ ] Asness et al. (2019) — Quality Minus Junk
 - [ ] Novy-Marx (2013) — Profitability Premium
-- [ ] Rouwenhorst (1999) — Momentum in EMs
+- [ ] Rouwenhorst (1999) — โมเมนตัมในตลาดเกิดใหม่
 
-### Important (Supporting)
+### สำคัญ (สนับสนุน)
 
-- [ ] Clarke et al. (2016) — Multi-factor portfolio construction
-- [ ] Daniel & Moskowitz (2016) — Momentum crashes
-- [ ] Sloan (1996) — Cash flow quality
+- [ ] Clarke et al. (2016) — การสร้างพอร์ตหลายปัจจัย
+- [ ] Daniel & Moskowitz (2016) — โมเมนตัมดิ่ง
+- [ ] Sloan (1996) — คุณภาพกระแสเงินสด
 
-### Thailand-Specific (Critical Gap)
+### เฉพาะไทย (ช่องว่างสำคัญ)
 
-- [ ] [Search needed] — Any Thai factor investing papers
-- [ ] [Search needed] — Thai university theses
-- [ ] [Search needed] — SET research publications
+- [ ] [ต้องค้น] — เอกสารการลงทุนตามปัจจัยไทยใดๆ
+- [ ] [ต้องค้น] — วิทยานิพนธ์มหาวิทยาลัยไทย
+- [ ] [ต้องค้น] — สิ่งพิมพ์วิจัย SET
 
 ---
 
-## Part 5: Academic Databases Access
+## ส่วนที่ 5: การเข้าถึงฐานข้อมูลวิชาการ
 
-### Check Access
+### ตรวจสอบการเข้าถึง
 
-| Database | Access | Username | Notes |
+| ฐานข้อมูล | การเข้าถึง | ชื่อผู้ใช้ | หมายเหตุ |
 |----------|--------|----------|-------|
-| Google Scholar | ✅ Free | — | Open access |
-| SSRN | ✅ Free | — | Open access |
-| ScienceDirect | ❓ Check | — | May need institution |
-| JSTOR | ❓ Check | — | May need institution |
-| Web of Science | ❓ Check | — | May need institution |
-| Bloomberg | ❓ Check | — | Check if available |
+| Google Scholar | ✅ ฟรี | — | เปิดเข้าถึงได้ |
+| SSRN | ✅ ฟรี | — | เปิดเข้าถึงได้ |
+| ScienceDirect | ❓ ตรวจสอบ | — | อาจต้องการสถาบัน |
+| JSTOR | ❓ ตรวจสอบ | — | อาจต้องการสถาบัน |
+| Web of Science | ❓ ตรวจสอบ | — | อาจต้องการสถาบัน |
+| Bloomberg | ❓ ตรวจสอบ | — | ตรวจสอบว่ามีหรือไม่ |
 
-**Action:** Verify which databases are accessible
+**ดำเนินการ:** ตรวจสอบฐานข้อมูลใดที่เข้าถึงได้
 
 ---
 
-## Part 6: Citation Management
+## ส่วนที่ 6: การจัดการการอ้างอิง
 
-### Reference Format
+### รูปแบบการอ้างอิง
 
-**Using:** APA 7th Edition
+**ใช้:** APA 7th Edition
 
-**Template:**
+**เทมเพลต:**
 ```
-Author, A. A. (Year). Title of article. *Journal Name, Volume*(Issue), 
-pages. DOI/URL
+ผู้แต่ง, ก. ก. (ปี). ชื่อบทความ. *ชื่อวารสาร, ปีที่*(ฉบับที่),
+หน้า. DOI/URL
 ```
 
-**Tools:**
-- [ ] Zotero — Free reference manager
-- [ ] Mendeley — Alternative
-- [ ] Manual tracking in Obsidian
+**เครื่องมือ:**
+- [ ] Zotero — โปรแกรมจัดการอ้างอิงฟรี
+- [ ] Mendeley — ทางเลือกอื่น
+- [ ] ติดตามด้วยตนเองใน Obsidian
 
 ---
 
-## Part 7: Timeline
+## ส่วนที่ 7: ไทม์ไลน์
 
-### Week 1-2: Literature Collection
-- [ ] Download core papers (15 papers)
-- [ ] Search Thailand-specific research
-- [ ] Organize references in folders
+### สัปดาห์ 1-2: การเก็บรวบรวมวรรณกรรม
+- [ ] ดาวน์โหลดเอกสารหลัก (15 เอกสาร)
+- [ ] ค้นหางานวิจัยเฉพาะไทย
+- [ ] จัดระเบียบอ้างอิงในโฟลเดอร์
 
-### Week 3-4: Reading & Synthesis
-- [ ] Read core papers (take notes)
-- [ ] Extract key findings
-- [ ] Identify research gaps
+### สัปดาห์ 3-4: การอ่านและสังเคราะห์
+- [ ] อ่านเอกสารหลัก (จดบันทึก)
+- [ ] สรุปผลการค้นพบหลัก
+- [ ] ระบุช่องว่างการวิจัย
 
-### Week 5: Chapter 2 Draft
-- [ ] Write literature review
-- [ ] Cite all references properly
-- [ ] Connect to VQM methodology
+### สัปดาห์ 5: ฉบับร่างบทที่ 2
+- [ ] เขียนทบทวนวรรณกรรม
+- [ ] อ้างอิงทุกแหล่งอ้างอิงอย่างถูกต้อง
+- [ ] เชื่อมต่อกับระเบียบวิธี VQM
 
 ---
 
-## Part 8: Research Notes Template
+## ส่วนที่ 8: เทมเพลตบันทึกการวิจัย
 
-### Paper Note Template
+### เทมเพลตบันทึกเอกสาร
 
 ```markdown
-### [Paper Title]
+### [ชื่อเอกสาร]
 
-**Authors:** [Names]
-**Year:** [Year]
-**Journal:** [Name]
+**ผู้แต่ง:** [ชื่อ]
+**ปี:** [ปี]
+**วารสาร:** [ชื่อ]
 
-**Key Findings:**
-- [Finding 1]
-- [Finding 2]
+**สรุปผลการค้นพบ:**
+- [การค้นพบ 1]
+- [การค้นพบ 2]
 
-**Relevance to VQM:**
-- [Why important]
+**ความเกี่ยวข้องกับ VQM:**
+- [ทำไมสำคัญ]
 
-**Citation:**
-[APA format]
+**การอ้างอิง:**
+[รูปแบบ APA]
 
-**Notes:**
-[Additional thoughts]
+**บันทึก:**
+[ความคิดเพิ่มเติม]
 ```
 
 ---
 
-## Part 9: Collaboration Notes
+## ส่วนที่ 9: บันทึกการทำงานร่วมกัน
 
-### Team Responsibilities
+### ความรับผิดชอบสมาชิกทีม
 
-| Member | Responsibility |
+| สมาชิก | ความรับผิดชอบ |
 |--------|----------------|
-| **@damodaran** | Literature review lead, Thailand research |
-| **Codex** | Paper acquisition, citation formatting |
-| **Gemini** | Research synthesis, writing assistance |
+| **@damodaran** | หัวหน้าทบทวนวรรณกรรม, งานวิจัยไทย |
+| **Codex** | การได้มาซึ่งเอกสาร, การจัดรูปแบบอ้างอิง |
+| **Gemini** | การสังเคราะห์งานวิจัย, การช่วยเขียน |
 
 ---
 
-## Part 10: Quick Reference
+## ส่วนที่ 10: ข้อมูลอ้างอิงรวดเร็ว
 
-### Key Journal Abbreviations
+### ตัวย่อวารสารหลัก
 
 - JF = Journal of Finance
 - JFE = Journal of Financial Economics
@@ -198,7 +212,7 @@ pages. DOI/URL
 - RAS = Review of Accounting Studies
 - RFS = Review of Financial Studies
 
-### Top Finance Journals (Tier 1)
+### วารสารการเงินระดับแนวหน้า (Tier 1)
 
 1. Journal of Finance (JF)
 2. Journal of Financial Economics (JFE)
@@ -207,5 +221,22 @@ pages. DOI/URL
 
 ---
 
-*Document created: 2026-04-06*
-*Status: Research Planning & Tracking*
+*สร้างเอกสาร: 2026-04-06*
+*สถานะ: การวางแผนการวิจัยและการติดตาม*
+
+---
+
+## 🔗 Linked References
+
+- [[VQM Model - Thesis Research Plan]] — แผนวิจัยหลัก
+- [[VQM Model - Literature Research Compilation]] — รวบรวมวรรณกรรม
+- [[Complete Reference List]] — รายการอ้างอิงครบถ้วน
+
+---
+
+## 📚 แหล่งข้อมูล
+
+- Google Scholar
+- SSRN
+- SET Research
+- Thai SEC

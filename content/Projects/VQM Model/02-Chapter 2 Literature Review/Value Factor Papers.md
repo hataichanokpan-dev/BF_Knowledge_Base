@@ -1,164 +1,198 @@
-# Value Factor Papers — Literature Review
+---
+title: "เอกสารปัจจัยมูลค่า — บทที่ 2 ทบทวนวรรณกรรม"
+aliases: ["Value Factor Papers", "เอกสาร Value Investing", "VQM Value Literature"]
+tags: [📁/literature-review, 🏷️/value-investing, 🏷️/vqm-model, 🏷️/fama-french]
+created: 2026-04-06
+modified: 2026-04-06
+type: literature-compilation
+status: sprout
+links:
+  - "[[VQM Model - Literature Research Compilation]]"
+  - "[[Complete Reference List]]"
+  - "[[Quality Factor Papers]]"
+  - "[[Momentum Factor Papers]]"
+  - "[[Multi-Factor Models]]"
+---
 
-> **Chapter:** 2.1 Value Investing
-> **Thesis:** VQM Model — Integrated Value-Quality-Momentum Model
-> **Last Updated:** 2026-04-06
+# เอกสารปัจจัยมูลค่า — บทที่ 2 ทบทวนวรรณกรรม
+
+> [!NOTE] **บท:** 2.1 การลงทุนแบบมูลค่า (Value Investing)
+> **วิทยานิพนธ์:** โมเดล VQM — โมเดลผสานมูลค่า-คุณภาพ-โมเมนตัม
+> **อัปเดตล่าสุด:** 2026-04-06
 
 ---
 
-## Core Papers (Must Read)
+## เอกสารหลัก (ต้องอ่าน)
 
-### 1. Fama-French Value Premium
+### 1. งานวิจัย Fama-French Value Premium
 
 **Fama, E. F., & French, K. R. (1992). The Cross-Section of Expected Stock Returns.**
 *Journal of Finance, 47*(2), 427-465.
 
-**Key Findings:**
-- Book-to-market ratio (value) explains cross-sectional returns
-- Value premium exists after controlling for size (market cap)
-- Beta alone cannot explain expected returns
+**สรุปผลการวิจัย:**
+- อัตราส่วนมูลค่าต่อมูลตามบัญชี (Book-to-Market) อธิบายผลตอบแทนข้ามหลักทรัพย์ได้
+- มี Value Premium อยู่จริง หลังจากควบคุมขนาดบริษัทแล้ว
+- Beta เพียงอย่างเดียวไม่สามารถอธิบายผลตอบแทนที่คาดหวังได้
 
-**Relevance to VQM:**
-- Foundation for Value factor in VQM Model
-- Supports FCF Yield, P/B, EV/EBITDA as value metrics
+**ความเกี่ยวข้องกับ VQM:**
+- เป็นพื้นฐานของปัจจัย Value ในโมเดล VQM
+- สนับสนุน FCF Yield, P/B, EV/EBITDA เป็นตัวชี้วัดมูลค่า
 
 ---
 
 **Fama, E. F., & French, K. R. (1993). Common Risk Factors in the Returns on Stocks and Bonds.**
 *Journal of Financial Economics, 33*(1), 3-56.
 
-**Key Findings:**
-- Fama-French 3-factor model: Market + Size + Value
-- Value factor (HML) captures risk premium for value stocks
+**สรุปผลการวิจัย:**
+- โมเดล Fama-French 3 ปัจจัย: ตลาด + ขนาด + มูลค่า
+- ปัจจัย Value (HML) จับความเสี่ยงที่เรียกร้องโดยหุ้นมูลค่า
 
-**Relevance to VQM:**
-- Factor construction methodology reference
-- HML (High Minus Low) as value factor template
+**ความเกี่ยวข้องกับ VQM:**
+- อ้างอิงวิธีการสร้างปัจจัย
+- HML (High Minus Low) เป็นต้นแบบปัจจัยมูลค่า
 
 ---
 
-### 2. Five-Factor Model
+### 2. โมเดลห้าปัจจัย
 
 **Fama, E. F., & French, K. R. (2015). A Five-Factor Asset Pricing Model.**
 *Journal of Financial Economics, 116*(1), 1-22.
 
-**Key Findings:**
-- Added Profitability (RMW) and Investment (CMA) factors
-- 5-factor model explains more variation than 3-factor
-- Value premium partly subsumed by profitability
+**สรุปผลการวิจัย:**
+- เพิ่มปัจจัย Profitability (RMW) และ Investment (CMA)
+- โมเดล 5 ปัจจัยอธิบายความแปรปรวนได้มากกว่า 3 ปัจจัย
+- Value Premium บางส่วนถูกอธิบายด้วย Profitability
 
-**Relevance to VQM:**
-- Connection between Value and Quality (profitability)
-- Factor orthogonality considerations
+**ความเกี่ยวข้องกับ VQM:**
+- เชื่อมโยงระหว่าง Value และ Quality (profitability)
+- พิจารณาความเป็นอิสระของปัจจัย
 
 ---
 
-### 3. Value & Profitability
+### 3. มูลค่าและความสามารถในการทำกำไร
 
 **Novy-Marx, R. (2013). The Other Side of Value: The Gross Profitability Premium.**
 *Journal of Financial Economics, 108*(1), 1-28.
 
-**Key Findings:**
-- Gross profitability (GP/Assets) predicts returns as strongly as value
-- Profitable firms outperform unprofitable firms
-- Quality and Value are distinct but complementary
+**สรุปผลการวิจัย:**
+- Gross profitability (GP/Assets) ทำนายผลตอบแทนได้เท่ากับมูลค่า
+- บริษัทที่ทำกำไรได้ดี ให้ผลตอบแทนดีกว่า
+- Quality และ Value เป็นปัจจัยที่แตกต่างแต่เสริมกัน
 
-**Relevance to VQM:**
-- **Critical paper** — bridges Value and Quality
-- Supports ROIC, FCF conversion as quality metrics
-- Validates VQM's multi-factor approach
+**ความเกี่ยวข้องกับ VQM:**
+- **เอกสารสำคัญ** — เชื่อมระหว่าง Value และ Quality
+- สนับสนุน ROIC, FCF conversion เป็นตัวชี้วัดคุณภาพ
+- ยืนยันแนวทาง VQM แบบหลายปัจจัย
 
 ---
 
-### 4. Classic Value Investing
+### 4. หนังสือคลาสสิกการลงทุนแบบมูลค่า
 
 **Graham, B., & Dodd, D. (1934). Security Analysis.**
 *McGraw-Hill.
 
-**Key Findings:**
-- Foundational text on value investing
-- Intrinsic value vs. market price
-- Margin of Safety concept
+**สรุปผลการวิจัย:**
+- ตำราพื้นฐานของการลงทุนแบบมูลค่า
+- มูลค่าที่แท้จริง (Intrinsic value) กับ ราคาตลาด
+- แนวคิด Margin of Safety
 
-**Relevance to VQM:**
-- Theoretical foundation for value investing
-- FCF-based valuation principles
-
----
-
-## Additional Value Papers
-
-| Paper | Authors | Year | Key Finding |
-|-------|---------|------|-------------|
-| Value Versus Growth | Lakonishok, J., Shleifer, A., Vishny, R. | 1994 | Value stocks outperform due to mispricing, not risk |
-| Contrarian Investment | De Bondt, W., Thaler, R. | 1985 | Losers outperform winners (long-term reversal) |
-| Value Around the World | Fama, E.F., French, K.R. | 1998 | Value premium global evidence |
-| The Limits of Arbitrage | Shleifer, A., Vishny, R. | 1997 | Why value premium persists |
+**ความเกี่ยวข้องกับ VQM:**
+- พื้นฐานทฤษฎีของการลงทุนแบบมูลค่า
+- หลักการประเมินมูลค่าแบบ FCF
 
 ---
 
-## Thailand-Specific Value Research (To Be Added)
+## เอกสารเพิ่มเติมด้านมูลค่า
 
-| Paper | Authors | Year | Journal | Status |
-|-------|---------|------|---------|--------|
-| [TBD] | | | | Search needed |
-| [TBD] | | | | Search needed |
+| เอกสาร | ผู้แต่ง | ปี | สรุปผล |
+|---------|----------|-----|----------|
+| Value Versus Growth | Lakonishok, J., Shleifer, A., Vishny, R. | 1994 | หุ้นมูลค่าให้ผลตอบแทนดีกว่าเพราะราคาผิด ไม่ใช่ความเสี่ยง |
+| Contrarian Investment | De Bondt, W., Thaler, R. | 1985 | หุ้นแพ้ให้ผลตอบแทนดีกว่าหุ้นชนะ (ย้อนกลับระยะยาว) |
+| Value Around the World | Fama, E.F., French, K.R. | 1998 | หลักฐาน Value Premium ทั่วโลก |
+| The Limits of Arbitrage | Shleifer, A., Vishny, R. | 1997 | ทำไม Value Premium ยังคงอยู่ |
 
 ---
 
-## Value Metrics for VQM Model
+## งานวิจัยด้านมูลค่าเฉพาะประเทศไทย (จะเพิ่ม)
 
-Based on literature review, supported value metrics:
+| เอกสาร | ผู้แต่ง | ปี | วารสาร | สถานะ |
+|---------|----------|-----|---------|--------|
+| [TBD] | | | | ต้องค้นหา |
+| [TBD] | | | | ต้องค้นหา |
 
-| Metric | Formula | Source Support |
-|--------|---------|----------------|
+---
+
+## ตัวชี้วัดมูลค่าสำหรับโมเดล VQM
+
+ตามการทบทวนวรรณกรรม ตัวชี้วัดที่ได้รับการสนับสนุน:
+
+| ตัวชี้วัด | สูตร | แหล่งอ้างอิง |
+|-----------|-------|----------------|
 | **FCF Yield** | FCF / Enterprise Value | Novy-Marx (2013) |
-| **P/E Relative** | P/E / Sector Median | Lakonishok et al. (1994) |
-| **P/B Ratio** | Price / Book Value | Fama-French HML |
-| **EV/EBITDA** | EV / EBITDA | Standard value metric |
+| **P/E Relative** | P/E / ค่ามัธยฐานกลุ่มอุตสาหกรรม | Lakonishok et al. (1994) |
+| **P/B Ratio** | ราคา / มูลตามบัญชี | Fama-French HML |
+| **EV/EBITDA** | EV / EBITDA | ตัวชี้วัดมูลค่ามาตรฐาน |
 
 ---
 
-## Research Questions from Value Literature
+## คำถามวิจัยจากวรรณกรรมด้านมูลค่า
 
-1. Does value premium persist in Thai market?
-2. Which value metric works best in emerging markets?
-3. How does value interact with quality and momentum?
-4. Is value premium due to risk or mispricing?
+1. Value Premium ยังคงอยู่ในตลาดหุ้นไทยหรือไม่?
+2. ตัวชี้วัดมูลค่าใดใช้ได้ดีที่สุดในตลาดเกิดใหม่?
+3. มูลค่าเกี่ยวข้องกับคุณภาพและโมเมนตัมอย่างไร?
+4. Value Premium เกิดจากความเสี่ยง หรือ ราคาผิด?
 
 ---
 
-## References (APA Format)
+## อ้างอิง (รูปแบบ APA)
 
 ```
-De Bondt, W. F., & Thaler, R. (1985). Does the stock market overreact? 
+De Bondt, W. F., & Thaler, R. (1985). Does the stock market overreact?
 Journal of Finance, 40(3), 793-805.
 
-Fama, E. F., & French, K. R. (1992). The cross-section of expected stock 
+Fama, E. F., & French, K. R. (1992). The cross-section of expected stock
 returns. Journal of Finance, 47(2), 427-465.
 
-Fama, E. F., & French, K. R. (1993). Common risk factors in the returns 
+Fama, E. F., & French, K. R. (1993). Common risk factors in the returns
 on stocks and bonds. Journal of Financial Economics, 33(1), 3-56.
 
-Fama, E. F., & French, K. R. (1998). Value versus growth: The international 
+Fama, E. F., & French, K. R. (1998). Value versus growth: The international
 evidence. Journal of Finance, 53(6), 1975-1999.
 
-Fama, E. F., & French, K. R. (2015). A five-factor asset pricing model. 
+Fama, E. F., & French, K. R. (2015). A five-factor asset pricing model.
 Journal of Financial Economics, 116(1), 1-22.
 
 Graham, B., & Dodd, D. (1934). Security analysis. McGraw-Hill.
 
-Lakonishok, J., Shleifer, A., & Vishny, R. W. (1994). Contrarian investment, 
+Lakonishok, J., Shleifer, A., & Vishny, R. W. (1994). Contrarian investment,
 extrapolation, and risk. Journal of Finance, 49(5), 1541-1578.
 
-Novy-Marx, R. (2013). The other side of value: The gross profitability 
+Novy-Marx, R. (2013). The other side of value: The gross profitability
 premium. Journal of Financial Economics, 108(1), 1-28.
 
-Shleifer, A., & Vishny, R. (1997). The limits of arbitrage. Journal of 
+Shleifer, A., & Vishny, R. (1997). The limits of arbitrage. Journal of
 Finance, 52(1), 35-55.
 ```
 
 ---
 
-*Document created: 2026-04-06*
-*Status: Literature Review — Value Factor Section*
+*สร้างเอกสาร: 2026-04-06*
+*สถานะ: ทบทวนวรรณกรรม — ส่วนปัจจัยมูลค่า*
+
+---
+
+## 🔗 Linked References
+
+- [[VQM Model - Literature Research Compilation]] — รวบรวมวรรณกรรม
+- [[Complete Reference List]] — รายการอ้างอิงครบถ้วน
+- [[Quality Factor Papers]] — เอกสารปัจจัยคุณภาพ
+- [[Momentum Factor Papers]] — เอกสารปัจจัยโมเมนตัม
+- [[Multi-Factor Models]] — โมเดลหลายปัจจัย
+
+---
+
+## 📚 แหล่งข้อมูล
+
+- Fama, E. F., & French, K. R. (1992). The cross-section of expected stock returns.
+- Graham, B., & Dodd, D. (1934). Security Analysis.
+- Novy-Marx, R. (2013). The other side of value: The gross profitability premium.
