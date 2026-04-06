@@ -41,62 +41,40 @@ umid: BF-2026-DAMODARAN-V2
 jel: G12, G15, O16, O53
 ---
 
-<div align="center">
-
-<br><br>
-
 # A COMPREHENSIVE FRAMEWORK FOR EQUITY VALUATION IN EMERGING MARKETS
 ## Integration of Damodaran's Four-Phase Methodology for the Stock Exchange of Thailand
 
-<br>
-
 ### DOCTORAL DISSERTATION EXTENSION
-
-<br>
-
-**Presented to:** BF Knowledge Base Research Committee<br>
-**Date:** April 2026<br>
-**Status:** Accepted with Minor Revisions<br>
-**Review Score:** 8.5/10<br>
-**Repository:** github.com/bfipa/alpha-trinity-scanner<br>
-**Citation:** Fon, Codex, & Gemini (2026). A comprehensive framework for equity valuation in emerging markets. BF Knowledge Base.
-
-<br><br>
-
-<hr style="border: 2px solid #333;">
-
-<br><br>
-
-**PREPARED BY:**
-
-**Fon (Principal Investigator)**<br>
-Lead Researcher, Alpha Trinity Scanner Project<br>
-PhD Candidate, Financial Engineering
-
-**Codex (Data Analysis Lead)**<br>
-Quantitative Analyst, Financial Data Processing
-
-**Gemini (Insights Synthesis Lead)**<br>
-Market Intelligence, Thesis Construction
-
-<br>
-
-**SUPERVISED BY:**
-
-**BF (Research Director)**<br>
-BF Knowledge Base
-
-<br><br>
-
-</div>
 
 ---
 
-<div align="center">
+**Presented to:** BF Knowledge Base Research Committee  
+**Date:** April 2026  
+**Status:** Accepted with Minor Revisions  
+**Review Score:** 8.5/10  
+**Repository:** github.com/bfipa/alpha-trinity-scanner  
+**Citation:** Fon, Codex, & Gemini (2026). A comprehensive framework for equity valuation in emerging markets. BF Knowledge Base.
 
-## ABSTRACT
+---
 
-</div>
+## Research Team
+
+**Fon (Principal Investigator)**  
+Lead Researcher, Alpha Trinity Scanner Project  
+PhD Candidate, Financial Engineering
+
+**Codex (Data Analysis Lead)**  
+Quantitative Analyst, Financial Data Processing
+
+**Gemini (Insights Synthesis Lead)**  
+Market Intelligence, Thesis Construction
+
+**BF (Research Director)**  
+Supervisor, BF Knowledge Base
+
+---
+
+## Abstract
 
 This dissertation presents a **novel comprehensive framework** for equity valuation in emerging markets, specifically applied to the Stock Exchange of Thailand (SET). Building upon the foundational work of Professor Aswath Damodaran at Stern School of Business, this research implements and validates a **four-phase systematic valuation approach** that addresses the unique challenges of emerging market investing: country risk premium determination, regulatory complexity, data quality limitations, and information asymmetry.
 
@@ -131,11 +109,7 @@ The framework enables systematic identification of mispriced securities in the T
 
 ---
 
-<div align="center">
-
-## ACKNOWLEDGMENTS
-
-</div>
+## Acknowledgments
 
 The research team acknowledges the foundational contributions of **Professor Aswath Damodaran** (Stern School of Business, NYU) whose valuation framework forms the theoretical basis of this work. We are particularly grateful for his publicly available datasets on country risk premiums and industry benchmarks, which enabled Thailand-specific calibration.
 
@@ -149,11 +123,7 @@ Finally, we thank the open-source community, particularly the contributors to pa
 
 ---
 
-<div align="center">
-
-## TABLE OF CONTENTS
-
-</div>
+## Table of Contents
 
 **PREFACE** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xiii
 
@@ -239,11 +209,7 @@ F.3 Robustness Check Results . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 ---
 
-<div align="center">
-
-## PREFACE
-
-</div>
+## Preface
 
 This dissertation represents the culmination of three years of research into equity valuation methodologies for emerging markets, with a specific focus on the Stock Exchange of Thailand. The work began in 2023 as a practical project to build a better stock screener for personal use, but evolved into a comprehensive research effort as we discovered the gaps in existing valuation frameworks when applied to emerging markets.
 

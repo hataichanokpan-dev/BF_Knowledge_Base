@@ -14,23 +14,14 @@ version: "2.0 ภาษาไทย"
 created: 2026-04-06
 ---
 
-<div align="center">
+---
 
-<br>
-<img src="https://img.icons8.com/clouds/100/finance.png" alt="Finance Icon" width="80"/>
-
-<br><br>
-
-# 📊 กรอบภาษาการประเมินราคาหลักทรัพย์สำหรับตลาดเกิดใหม่
+# กรอบภาษาการประเมินราคาหลักทรัพย์สำหรับตลาดเกิดใหม่
 ## การประยุกต์ใช้กรอบการวิเคราะห์ 4 ขั้นตอนของ Damodaran สำหรับตลาดหลักทรัพย์แห่งประเทศไทย
 
-<br>
+### วิทยานิพนธ์ระดับดุษฎีบันณี
 
-### 🎓 วิทยานิพนธ์ระดับดุษฎีบันณี
-
-<br>
-
-<hr style="border: 2px solid #FFD700; background-color: #FFD700;">
+---
 
 <br>
 
@@ -45,38 +36,28 @@ created: 2026-04-06
 
 ---
 
-<br><br>
+## ทีมวิจัย
 
-**👥 ทีมวิจัย**
-
-**🤖 ฝน (นักวิจัยหลัก)**<br>
-หัวหน้าโครงการ อัลฟา ตรินิตี สแกนเนอร์<br>
+**ฝน (นักวิจัยหลัก)**  
+หัวหน้าโครงการ อัลฟา ตรินิตี สแกนเนอร์  
 ผู้สมัครปริญญาเอก สาขาวิศวกรรมการเงิน
 
-**🔍 Codex (หัวหน้าวิเคราะห์ข้อมูล)**<br>
+**Codex (หัวหน้าวิเคราะห์ข้อมูล)**  
 นักวิเคราะห์เชิงปริมาณ การประมวลผลข้อมูลการเงิน
 
-**💡 Gemini (หัวหน้าสังเคราะห์มุมมอง)**<br>
+**Gemini (หัวหน้าสังเคราะห์มุมมอง)**  
 ฝ่ายวิเคราะห์สัญญาณตลาด การสร้างนิยามวิทยา
 
-<br>
+## ที่ปรึกษา
 
-**🎓 ที่ปรึกษา**
-
-**👨‍💼 BF (ผู้อำนวยการวิจัย)**<br>
+**BF (ผู้อำนวยการวิจัย)**  
 BF Knowledge Base
-
-<br><br>
-
-</div>
 
 ---
 
-<div align="center">
+---
 
-# 📝 บทคัดย่อ (ABSTRACT)
-
-</div>
+# บทคัดย่อ (ABSTRACT)
 
 > **วิทยานิพนธ์ฉบับนี้นำเสนอ** "กรอบภาษาการประเมินราคาหลักทรัพย์ที่ครอบคลุม" สำหรับตลาดเกิดใหม่ โดยประยุกต์ใช้กับตลาดหลักทรัพย์แห่งประเทศไทย (SET) อย่างเป็นรูปธรรม โดยยึดตามงานวิจัยพื้นฐานของศาสตราจารย์ Aswath Damodaran จาก Stern School of Business งานวิจัยนี้ดำเนินการ "แนวทางการวิเคราะห์ 4 ขั้นตอนแบบเป็นระบบ" ที่จัดการกับความท้าทายเฉพาะของตลาดเกิดใหม่: การประเมินความเสี่ยงระดับประเทศ, ความซับซ้อนทางกฎระเบียบ, ข้อจำกัดด้านคุณภาพข้อมูล และความไม่สมดุลของข้อมูล
 
@@ -93,40 +74,22 @@ BF Knowledge Base
 ### 📍 เป้าหมายหลัก
 พัฒนาการนำไปใช้กรอบการวิเคราะห์ของ Damodaran ที่ปรับใช้เฉพาะสำหรับหลักทรัพย์ไทย
 
-</div>
 
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 1.5rem; border-radius: 10px; color: white;">
 
-### 📊 เป้าหมายรอง
+### เป้าหมายรอง
 ตรวจสอบความถูกต้องของกรอบการผ่านการทดสอบเชิงประจักกันบนหลักทรัพย์ SET100
 
-</div>
-
-<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 1.5rem; border-radius: 10px; color: white;">
-
-### 🤖 เป้าหมายที่ 3
+### เป้าหมายที่ 3
 สร้างและตรวจสอบโปรโตคอลการทำงานร่วมกันของ AI คู่ (Dual-AI)
 
-</div>
-
-<div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 1.5rem; border-radius: 10px; color: white;">
-
-### 🔓 เป้าหมายที่ 4
+### เป้าหมายที่ 4
 สร้างการนำไปใช้แบบ Open-Source สำหรับการทำซ้ำทางวิชาการ
-
-</div>
-
-</div>
 
 ---
 
-<br>
+## ผลการวิจัยที่สำคัญ
 
-## 🔑 ผลการวิจัยที่สำคัญ
-
-<div style="background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); padding: 2rem; border-radius: 15px; border-left: 5px solid #ff6b6b;">
-
-### 💎 1. ผลกระทบ Country Risk Premium (CRP)
+### 1. ผลกระทบ Country Risk Premium (CRP)
 
 **CRP ของไทยที่ 2.07%** เพิ่มต้นทุนทุนของผู้ถือหุ้นประมาณ **145 bps** สำหรับหลักทรัพย์ไทยทั่วไปเมื่อเปรียบเทียบกับการประเมินราคาแบบสหรัฐอเมริกา
 
@@ -137,11 +100,14 @@ graph LR
     C --> D[ผลกระทบ WACC]
 ```
 
-</div>
+```mermaid
+graph LR
+    A[CRP ไทย 2.07%] -->|เพิ่ม| B[ต้นทุนทุน]
+    B --> C[+145 bps]
+    C --> D[ผลกระทบ WACC]
+```
 
-<div style="background: linear-gradient(to right, #a1ffce 0%, #faffd1 100%); padding: 2rem; border-radius: 15px; border-left: 5px solid #4ecdc4;">
-
-### 💎 2. Implied vs Fundamental Growth
+### 2. Implied vs Fundamental Growth
 
 การวิเคราะห์ SET100 พบว่า **ช่วงแก้ต่างการเติบโตมัธยมัธร์อยู่ที่ -17.37%** ซึ่งบ่งชี้ว่าตลาดมีมุมมองที่หดตัวเมื่อเปรียบกับความสามารถพื้นฐาน
 
@@ -152,34 +118,27 @@ graph LR
 | Positive Gap Stocks | 21% | AVOID candidate |
 | Negative Gap Stocks | 71% | ACCEPTABLE candidate |
 
-</div>
-
-<div style="background: linear-gradient(to right, #fccb90 0%, #d57eeb 100%); padding: 2rem; border-radius: 15px; border-left: 5px solid #a29bfe;">
-
-### 💎 3. Composite Gap Validation
+### 3. Composite Gap Validation
 
 การให้คะแนนแบบ 3 องค์ประกอบ (DCF 40%, Growth -30%, Relative 30%) สามารถจัดประเภทสัญญาณได้เป็น:
 - **ACCEPTABLE: 68 หลักทรัพย์ (70.1%)**
 - **CAUTION: 8 หลักทรัพย์ (8.2%)**
 - **AVOID: 21 หลักทรัพย์ (21.6%)**
 
-<div style="text-align: center; margin-top: 1rem;">
-
 ```
 ███████████████████████████████████████ 70.1% ACCEPTABLE
-████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  8.2% CAUTION  
+████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  8.2% CAUTION
 ░░░░░░░░░░░░░░░░░░░░░░░██████████████████ 21.6% AVOID
 ```
 
-</div>
-
-</div>
-
-<div style="background: linear-gradient(to right, #e0c3fc 0%, #8ec5fc 100%); padding: 2rem; border-radius: 15px; border-left: 5px solid #6c5ce7;">
-
-### 💎 4. Dual-AI Protocol
+### 4. Dual-AI Protocol
 
 การวิเคราะห์ Codex (อนุรักษ์) และ Gemini (มองการณ์) แสดง **ความแตกต่างเฉลี่ย 15.3 คะแนน**; ช่องว่างเกิน 20 คะแนนต้องการการแทรกแซงจากมนุษย์
+
+```
+┌─────────────────────────────────────────────────┐
+│  AI DIVERGENCE ANALYSIS                          │
+├─────────────────────────────────────────────────┤
 
 <div style="text-align: center; margin-top: 1rem;">
 
@@ -201,19 +160,9 @@ graph LR
 └─────────────────────────────────────────────────┘
 ```
 
-</div>
-
-</div>
-
 ---
 
-<br>
-
-<div align="center">
-
-# 📚 สารบัญ (TABLE OF CONTENTS)
-
-</div>
+# สารบัญ (TABLE OF CONTENTS)
 
 ```mermaid
 mindmap
@@ -263,27 +212,17 @@ mindmap
 
 ---
 
-<br>
-
-<div align="center">
-
-# 📖 บทที่ 1: บทนำ (INTRODUCTION)
-
-</div>
+# บทที่ 1: บทนำ (INTRODUCTION)
 
 ## 1.1 บริบทวิจัย (Research Background)
 
-> *"การประเมินราคาหลักทรัพย์ในตลาดเกิดใหม่เป็นความท้าทายที่ซับซ้อน"* — Aswath Damodaran
+> "การประเมินราคาหลักทรัพย์ในตลาดเกิดใหม่เป็นความท้าทายที่ซับซ้อน" — Aswath Damodaran
 
----
-
-### 🌏 ภูมิทัศน์ตลาดหลักทรัพย์ไทย
+### ภูมิทัศน์ตลาดหลักทรัพย์ไทย
 
 ตลาดหลักทรัพย์แห่งประเทศไทย (SET) เป็นหนึ่งในตลาดหลักทรัพย์ที่มีความเก่าแก่ที่สุดในเอเชียตะอาคเนีย์ โดยก่อตั้งขึ้นในปี 2518 ณ วันที่ 6 เมษายน 2566 ตลาด SET ประกอบด้วยบริษัทจดทะเบียนประมาณ **800 บริษัท** มีมูลค่าตลาดรวมกว่า **500,000 ล้านดอลลาร์สหรัฐ**
 
-<div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; border-left: 4px solid #007bff;">
-
-### 📊 โครงสร้างตลาด SET
+### โครงสร้างตลาด SET
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
