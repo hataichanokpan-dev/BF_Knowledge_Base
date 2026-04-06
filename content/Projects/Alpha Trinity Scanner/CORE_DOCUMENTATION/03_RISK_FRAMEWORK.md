@@ -288,8 +288,8 @@ risk_report = tester.generate_risk_report(stress_results, risk_assessment)
 
 ## Related Notes
 
-- [[00 - Project Summary]] - Overall project status
-- [[01 - Technical Documentation]] - Reverse DCF methodology
+- [[00_Project_Summary]] - Overall project status
+- [[01_Technical_Documentation]] - Reverse DCF methodology
 - [[Sector Analysis/Energy Sector Analysis]] - Energy sector findings
 - [[Knowledge/Value Investing/Howard Marks' Market Cycle & Risk Framework]]
 

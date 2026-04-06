@@ -369,10 +369,10 @@ Each month, track:
 
 ## Related Documentation
 
-- [[01 - Technical Documentation]] - Reverse DCF mechanics
-- [[LITERATURE REVIEW]] - Evidence matrix
+- [[01_Technical_Documentation]] - Reverse DCF mechanics
+- [[04_LITERATURE_REVIEW]] - Evidence matrix
 - [[Sector Analysis]] - Sector-specific findings
-- [[Risk Framework & Stress Testing]] - Risk management
+- [[03_RISK_FRAMEWORK]] - Risk management
 
 ---
 

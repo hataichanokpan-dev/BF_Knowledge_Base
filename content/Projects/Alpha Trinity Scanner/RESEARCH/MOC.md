@@ -29,7 +29,7 @@ updated: 2026-04-05
 ## Documentation Structure
 
 ### 00 - Project Summary
-**File**: [[00 - Project Summary]]
+**File**: [[00_Project_Summary]]
 
 **Contents**:
 - Quick validation results (6-month lookback)
@@ -43,7 +43,7 @@ updated: 2026-04-05
 ---
 
 ### 01 - Technical Documentation
-**File**: [[01 - Technical Documentation]]
+**File**: [[01_Technical_Documentation]]
 
 **Contents**:
 - Reverse DCF methodology explained
@@ -57,7 +57,7 @@ updated: 2026-04-05
 ---
 
 ### 02 - Risk Framework
-**File**: [[Risk Framework & Stress Testing]]
+**File**: [[03_RISK_FRAMEWORK]]
 
 **Contents**:
 - 5 Risk categories (Signal, Concentration, Liquidity, Model, Regime)
@@ -70,7 +70,7 @@ updated: 2026-04-05
 ---
 
 ### 03 - Literature Review
-**File**: [[LITERATURE REVIEW]]
+**File**: [[04_LITERATURE_REVIEW]]
 
 **Contents**:
 - Evidence matrix (claim → source → validation → action)
@@ -83,7 +83,7 @@ updated: 2026-04-05
 ---
 
 ### 04 - Methodology Deep Dive
-**File**: [[METHODOLOGY DEEP DIVE]]
+**File**: [[METHODOLOGY_DEEP_DIVE]]
 
 **Contents**:
 - Data triangulation (solving yfinance EBIT=0 bug)
@@ -96,7 +96,7 @@ updated: 2026-04-05
 ---
 
 ### 05 - API Reference
-**File**: [[API REFERENCE]]
+**File**: [[02_API_REFERENCE]]
 
 **Contents**:
 - Complete module index with line counts
@@ -151,7 +151,7 @@ updated: 2026-04-05
 - วิธีใช้งาน
 
 #### วิธี Sync Vercel
-**File**: [[วิธี Sync Vercel]]
+**File**: [[วิธีSyncVercel]]
 
 **Contents**:
 - วิธี sync เนื้อหาไป BF-Knowledge-Base
