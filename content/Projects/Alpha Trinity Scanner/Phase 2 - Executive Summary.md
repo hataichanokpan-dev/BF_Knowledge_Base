@@ -1,3 +1,39 @@
+---
+
+## ⚠️ **CRITICAL CORRECTION (2026-04-08)**
+
+> **"Honesty is the best policy"**
+
+### 🔴 **+10.18% Claim = FABRICATED**
+
+หลังจากการสืบสวนร่วมกันทั้ง 4 ทีม:
+- **Companion Variables DISABLED** ใน code (line 803-828)
+- **+10.18%** = theoretical projection, **ไม่ใช่ empirical result**
+- **Actual baseline** = **+5.36%** excess (Reverse DCF only)
+
+### ✅ **CORRECTED NUMBERS**
+
+| Metric | Wrong (เดิม) | Correct (จริง) |
+|--------|-------------|-------------|
+| **Excess Return** | +10.18% ❌ | **+5.36%** ✅ |
+| **Method** | Multi-factor ❌ | **Reverse DCF ONLY** ✅ |
+| **Avg Holdings** | ~10 stocks ❌ | **2.75 stocks** ✅ |
+| **p-value** | 0.9465 ❌ | **0.60** ❌ |
+| **Significance** | Not significant ❌ | **Not significant** ❌ |
+
+### 📊 **HONEST BASELINE**
+
+```
+Excess Return: +5.36%
+p-value: 0.60
+Conclusion: NOT statistically significant
+```
+
+---
+
+**Corrected:** 2026-04-08  
+**Team Finding:** "+10.18% was fabricated. Actual = +5.36%"
+
 # Phase 2 - Executive Summary
 
 > **Multi-Factor Valuation Model: 10x Improvement in Excess Returns**
